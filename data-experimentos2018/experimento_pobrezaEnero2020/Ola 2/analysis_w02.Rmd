@@ -1,0 +1,94 @@
+---
+title: "Wave 02"
+author: "Julio César Iturra Sanhueza"
+date: "21-01-2020"
+output: html_document
+---
+
+
+```{r}
+library(sjlabelled)
+library(sjPlot)
+library(dplyr)
+```
+
+```{r}
+w01 <- read_spss("Estudio_3_ola1.sav")
+w02 <- read_spss("Estudio_3_ola2.sav")
+```
+
+```{r}
+table(w01$Intro,exclude=NULL) # (2) 221 no aceptan, (1) 2236 aceptan
+
+w01a <- filter(w01,Intro==1) # Elimina los que no aceptan
+table(w01a$Intro,exclude=NULL) # 2236 
+
+# Variables para ver si finalizo encuesta
+table(w01a$Finished,exclude=NULL) # (1) 2100 finalizan, (0) 136 no terminan
+
+w01b <- filter(w01a,Finished==1) # Elimina los que no aceptan
+table(w01b$Intro,exclude=NULL) # 2100
+```
+
+```{r}
+table(w02$Intro,exclude=NULL) # (2)  no aceptan, (1)  aceptan
+
+w02a <- filter(w02,Intro==1) # Elimina los que no aceptan
+table(w02a$Intro,exclude=NULL) # 
+
+# Variables para ver si finalizo encuesta
+table(w02a$Finished,exclude=NULL) # (1)  finalizan, (0)  no terminan
+
+w02b <- filter(w02a,Finished==1) # Elimina los que no aceptan
+table(w02b$Intro,exclude=NULL) # 
+```
+
+```{r}
+xlsx::write.xlsx(x = select(w02b, ticket),file = "id_w02.xlsx")
+```
+
+
+```{r}
+w01b$ID<- stringr::str_split_fixed(w01b$ticket,"_", 4)[,1] # En la variable ticket el primer código es el ID, todo lo demás se borra
+w02b$ID <- stringr::str_split_fixed(w02b$ticket, "_", 4)[,1] 
+
+testw01 <- w01b %>% select(ID,sexo_w1=sexo,edad_w1=edad,edcep_w1=edcep) # Ponemos _w que identica la ola
+testw02 <- w02b  %>% select(ID,sexo_w2=sexo,edad_w2=edad,edcep_w2=edcep)
+
+test <- inner_join(x = testw01,y = testw02, by = "ID") # Solamente nos quedamos con casos en ambas olas 
+dim(test) #en ambas olas
+```
+
+
+```{r}
+# Verificar sociodemográficos y educación 
+table(test$sexo_w1==test$sexo_w2)   # 
+table(test$edad_w1==test$edad_w2)   # 
+table(test$edcep_w1==test$edcep_w2) # 
+
+# Correlación entre olas
+cor(test[,c("sexo_w1","sexo_w2")],use = "complete.obs") 
+cor(test[,c("edad_w1","edad_w2")],use = "complete.obs")
+cor(test[,c("edcep_w1","edcep_w2")],use = "complete.obs")
+
+sjmisc::frq(x = test$edcep_w1)
+sjmisc::frq(x = test$edcep_w2)
+
+test$ove_ed<- test$edcep_w1>test$edcep_w2 #cuantos declaran MAYOR educacion en w02 que en w01
+table(test$over_eed)
+
+test$sub_ed<- test$edcep_w1<test$edcep_w2 #cuantos declaran MENOR educacion en w02 que en w01
+table(test$sub_ed)
+
+test$same_ed<- test$edcep_w1==test$edcep_w2 #cuantos declaran la MISMA educacion en w02 y w01
+table(test$same_ed)
+```
+
+
+```{r}
+faltan <- anti_join(x = testw01,y = testw02, by = "ID") # Quedarse con los ID que W01 que no estan en W02
+xlsx::write.xlsx(x = faltan[,c("ID")],file = "id_faltantes.xlsx")
+```
+
+
+

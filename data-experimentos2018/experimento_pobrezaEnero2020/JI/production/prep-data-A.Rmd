@@ -1,0 +1,205 @@
+---
+title: "Longitudinal data"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+css: ../style.css
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    code_folding: "hide"
+editor_options: 
+  chunk_output_type: console
+---
+
+# Longitudinal data
+
+```{r eval=FALSE, include=FALSE}
+rmarkdown::render(input = "production/prep-data-A.Rmd",output_format = "html_document",output_dir = ".")
+```
+
+```{r include=FALSE}
+knitr::opts_chunk$set(warning = FALSE,message = FALSE, cache = TRUE,results = "hold")
+knitr::opts_knit$set(root.dir = "../")
+options(scipen=999)
+rm(list=ls())
+options(knitr.kable.NA = '')
+```
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(knitr)
+library(kableExtra)
+```
+
+```{r}
+w01 <- sjlabelled::read_spss("input/data/original/Estudio_3_ola1.sav",verbose = F)
+w02 <- sjlabelled::read_spss("input/data/original/Estudio_3_ola2.sav",verbose = F)
+w03 <- sjlabelled::read_spss("input/data/original/Estudio_3_ola3.sav",verbose = F)
+```
+
+```{r}
+table(w01$Intro,exclude=NULL) # (2) 221 no aceptan, (1) 2236 aceptan
+
+w01a <- filter(w01,Intro==1) # Elimina los que no aceptan
+table(w01a$Intro,exclude=NULL) # 2236 
+
+# Variables para ver si finalizo encuesta
+table(w01a$Finished,exclude=NULL) # (1) 2100 finalizan, (0) 136 no terminan
+
+w01b <- filter(w01a,Finished==1) # Elimina los que no aceptan
+table(w01b$Intro,exclude=NULL) # 2100
+```
+
+```{r}
+table(w02$Intro,exclude=NULL) # (2)  56 no aceptan, (1)  1809 aceptan
+
+w02a <- filter(w02,Intro==1) # Elimina los que no aceptan
+table(w02a$Intro,exclude=NULL) # 
+
+# Variables para ver si finalizo encuesta
+table(w02a$Finished,exclude=NULL) # (1) 1769 finalizan, (0) 40 no terminan
+
+w02b <- filter(w02a,Finished==1) # Elimina los que no aceptan
+table(w02b$Intro,exclude=NULL) # 1769 
+```
+
+```{r}
+# Variables para ver si finalizo encuesta
+table(w03$Finished,exclude=NULL) # (1) 1769 finalizan, (0) 40 no terminan
+
+w03b <- filter(w03,Finished==1) # Elimina los que no aceptan
+table(w03b$Progress==100)
+
+write.csv(x = data.frame(w03b$ticket),file = "output/tables/id_w03.csv")
+```
+
+
+
+## prepare wave01
+
+```{r}
+colnames(w01b) <- paste(colnames(w01b), "w1", sep = "_") # Add suffix for wave 01 identification
+w01b$ID <- stringr::str_split_fixed(w01b$ticket,"_", 4)[,1] # En la variable ticket el primer código es el ID, todo lo demás se borra
+
+w01c <- w01b 
+w01c$grupo <- NA
+w01c$grupo[w01c$FL_21_DO_merit_perc_pref_julio19v01_w1==1] <- 1 #Versión A de escala meritocracia
+w01c$grupo[w01c$FL_21_DO_merit_perc_pref_julio19v02_w1==1] <- 2 #Versión B de escala meritocracia
+w01c$grupo[w01c$FL_21_DO_merit_perc_pref_julio19v03_w1==1] <- 3 #Versión C de escala meritocracia
+w01c$grupo <- factor(w01c$grupo,levels = c(1,2,3),labels = c("A","B","C"))
+#-----------------------------------------------------------------------#
+skimr::skim(w01c)
+```
+
+## prepare wave02
+
+```{r}
+colnames(w02b) <- paste(colnames(w02b), "w2", sep = "_") # Add suffix for wave 02 identification
+w02b$ID <- stringr::str_split_fixed(w02b$ticket, "_", 4)[,1]  # En la variable ticket el primer código es el ID, todo lo demás se borra
+w02c <- w02b
+w02c$treat <- NA
+w02c$treat[w02c$FL_6_DO_Control_w2==1] <- 1 
+w02c$treat[w02c$FL_6_DO_Tratamiento_w2==1] <- 2 
+w02c$treat[w02c$FL_6_DO_Tratamiento_desigualdad_w2==1] <- 3 
+w02c$treat <- factor(w02c$treat,levels = c(1,2,3),labels = c("control","pobreza","desiguald"))
+#-----------------------------------------------------------------------#
+skimr::skim(w02c)
+```
+
+## duplicated cases in wave 2
+
+```{r}
+a <- select(w01c,ID)
+b <- select(w02c,ID)
+tab1<- questionr::freq(b$ID)
+tab2 <- subset(x = tab1,subset = (n>1))# Tenemos 19 casos son ID duplicado.
+```
+
+* Identificar casos duplicados.
+* Chequear día y hora en que entraron al cuestionario
+* De cada caso duplicado, debemos quedaron son aquel que tiene el valor máximo en la variable "StartDate".
+* Identificar el RespondeID (identificador único en w02)
+
+```{r}
+rownames(tab2)
+dup1 <- w02c %>% filter(ID %in% rownames(tab2)) %>% select(ID,treat,ResponseId_w2,everything())
+
+dup2a <- dup1 %>% group_by(ID) %>% summarize(maxDate=max(StartDate_w2)) # Caso duplicado: fecha y hora más alta en que entró al cuestionario.
+dup2b <- dup1 %>% group_by(ID,ResponseId_w2) %>% summarize(maxDate=max(StartDate_w2)) %>% filter(maxDate %in% max(maxDate)) 
+# ID = identificador panel
+# RespondeID =  identificador específico de ola. Buscamos este para eliminar los casos que entraron por segunda vez al cuestionario.
+dup2a$maxDate==dup2b$maxDate # Check de que sean los mismos. Todo OK.
+
+dup2b$ResponseId_w2 # ResponseID que deben ser ELIMINADOS de w02c
+                    # MOTIVO: Son individuos que entraron por SEGUNDA vez al cuestionario.
+                    # De los casos suplicados, nos quedamos con la observación para la primera entrada al cuestionario.
+filterID <- as.character(dup2b$ResponseId_w2) #vector para realizar filtro
+```
+
+```{r}
+w02d<- filter(w02c, !(ResponseId_w2 %in% filterID)) #w02 filtrada sin casos duplicados 
+```
+
+```{r eval=FALSE, include=FALSE}
+xlsx::write.xlsx(x = w02d[,c("ticket_w2")],file = "input/data/proc/ids_w02.xlsx")
+```
+
+
+## Merge wide data
+
+* Nos quedamos con los `r dim(w01c)[1]`  de la w01 y luego pegamos los `r dim(w02d)[1]` casos de la w02
+
+```{r}
+wide01 <- left_join(x = w01c,y = w02d, by = "ID") 
+dim(wide01) #en ambas olas
+```
+
+
+```{r}
+skimr::skim(wide01)
+```
+ 
+```{r}
+save(wide01,file = "input/data/proc/datawide.RData")
+```
+
+```{r}
+sjPlot::view_df(x = wide01,show.values = T,show.frq = T,show.prc = T)
+```
+
+# Summary
+
+@. Se agregan sufijos a todas las variables de la wave01 y wave02 (p.ej: sexo_w1, sexo_w2)
+@. Se crea una variable `grupo` para identificar la tres versiones existentes de la escala de meritocracia en la wave01
+@. Se crea una variable `treat` para identificar grupos Control, Tratamiento Pobreza y Tratamiento Desigualdad en la wave02.
+@. En la wave02 se encontraron casos duplicados que entraron al cuestionario en dos horarios. Se procede a filtrar y a eliminar los casos duplicados que entraron por segunda vez. El criterio de selección de estos casos fue el horario de entrada, de modo tal que se conservaron los casos con la primera entrada (la menos reciente).
+@. Se realizó el merge de wave01 y wave02 y se creó la base de datos `datawide.RData`.
+
+
+<!-- # Wide to long data -->
+
+<!-- ```{r} -->
+<!-- library(datasets) -->
+<!-- library(data.table) -->
+
+<!-- wide <- setDT(wide01) -->
+
+<!-- long01<- melt(wide,variable.name = "wave", -->
+<!--               measure = patterns("^perc_effort_","^perc_talent_","^perc_wpart_","^perc_netw_", -->
+<!--                                        "^pref_effort_","^pref_talent_","^pref_wpart_","^pref_netw_", -->
+<!--                                        "^sexo_","^edad_","^edcep_"), -->
+<!--               value.name = c("perc_effort","perc_talent","perc_wpart","perc_netw", -->
+<!--                              "pref_effort","pref_talent","pref_wpart","pref_netw", -->
+<!--                              "sexo","edad","edcep")) -->
+
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- save(long01,file = "input/data/proc/datalong.RData") -->
+<!-- ``` -->
+
+
+

@@ -1,0 +1,349 @@
+---
+title: "Experimento Pobreza V2"
+subtitle: "Libro de códigos"
+author: "FONDECYT N°1160921"
+date: "27 de octubre, 2018"
+fontsize: 12pt
+linestretch: "1.15"
+geometry: margin=0.78in
+fontfamily: mathpazo
+output: 
+    pdf_document:
+        template: NULL
+---
+
+#Introducción
+
+Esta encuesta fue administrada a través de internet empleando la plataforma **Qualtrics**.  El periodo de reclutamiento de los participantes fue desde el 12 al 13 de octubre de 2018. Los respondentes son personas mayores de 18 años residentes en Chile, lo cuales fueron reclutados a través del sistema de anuncios de Facebook.
+
+--- 
+
+_**Nota**_: A lo largo del archivo de datos, las preguntas que el encuestado nunca vio están codificadas *NA/faltante*, y las que se vieron y fueron omitidas, se codifican **-99**.
+
+> 
+
+**StartDate**. Fecha de inicio de la encuesta.
+
+**EndDate**. Fecha de término de la encuesta.
+
+**Duration__in_seconds_**. Duración de la encuesta en segundos.
+
+**Finished**.
+
+0. El respondente completó parcialmente la encuesta.
+1. El respondente completó la encuesta.
+
+**Intro**.
+
+1. ACEPTO participar en este estudio
+2. NO ACEPTO participar en este estudio
+
+\newpage
+
+**getah_getah01**. Actualmente en Chile, ¿cuán importante es para surgir en la vida…? - Provenir de una familia rica o con muchos recursos
+
+1. Nada importante
+2. Poco importante
+3. Algo importante
+4. Bastante importante
+5. Muy importante
+
+**getah_getah02**. Actualmente en Chile, ¿cuán importante es para surgir en la vida…? - Tener un buen nivel de educación
+
+1. Nada importante
+2. Poco importante
+3. Algo importante
+4. Bastante importante
+5. Muy importante
+
+**getah_getah03**. Actualmente en Chile, ¿cuán importante es para surgir en la vida…? - Tener ambición
+
+1. Nada importante
+2. Poco importante
+3. Algo importante
+4. Bastante importante
+5. Muy importante
+
+**getah_getah04**. Actualmente en Chile, ¿cuán importante es para surgir en la vida…? - El trabajo duro
+
+1. Nada importante
+2. Poco importante
+3. Algo importante
+4. Bastante importante
+5. Muy importante
+
+**tax_health**. ¿Qué tan dispuesto está Ud. a pagar mayores impuestos para mejorar el nivel de la atención en salud para las personas en Chile?
+
+1. Muy dispuesto
+2. Bastante dispuesto
+3. Ni dispuesto ni indispuesto
+4. Bastante indispuesto
+5. Muy indispuesto
+
+\newpage
+
+**tax_ineq**.  ¿Qué tan dispuesto está Ud. a pagar mayores impuestos para mejorar el nivel de la atención en salud para las personas en Chile?
+
+1. Muy dispuesto
+2. Bastante dispuesto
+3. Ni dispuesto ni indispuesto
+4. Bastante indispuesto
+5. Muy indispuesto
+
+
+**merit_merit01**. Utilizando una escala de 1 a 5, ¿cuán de acuerdo se encuentra con las siguientes afirmaciones? - En Chile las personas son recompensadas por sus esfuerzos
+
+1. Totalmente en desacuerdo
+2. En desacuerdo
+3. Ni de acuerdo ni en desacuerdo
+4. De acuerdo
+5. Totalmente de acuerdo
+
+**merit_merit02**. Utilizando una escala de 1 a 5, ¿cuán de acuerdo se encuentra con las siguientes afirmaciones? - En Chile las personas obtienen lo que merecen
+
+1. Totalmente en desacuerdo
+2. En desacuerdo
+3. Ni de acuerdo ni en desacuerdo
+4. De acuerdo
+5. Totalmente de acuerdo
+
+**merit_merit03**. Utilizando una escala de 1 a 5, ¿cuán de acuerdo se encuentra con las siguientes afirmaciones? - En Chile las personas son recompensadas por su inteligencia y habilidades
+
+1. Totalmente en desacuerdo
+2. En desacuerdo
+3. Ni de acuerdo ni en desacuerdo
+4. De acuerdo
+5. Totalmente de acuerdo
+
+**merit_merit04**. Utilizando una escala de 1 a 5, ¿cuán de acuerdo se encuentra con las siguientes afirmaciones? - Está bien que haya personas que tienen más dinero o riqueza, pero sólo si hay igualdad de oportunidades
+
+1. Totalmente en desacuerdo
+2. En desacuerdo
+3. Ni de acuerdo ni en desacuerdo
+4. De acuerdo
+5. Totalmente de acuerdo
+
+**merit_merit05**. Utilizando una escala de 1 a 5, ¿cuán de acuerdo se encuentra con las siguientes afirmaciones? - Las personas tienen derecho a mantener o conservar lo que han ganado, aun cuando eso signifique que algunas personas sean más ricas que otras
+
+1. Totalmente en desacuerdo
+2. En desacuerdo
+3. Ni de acuerdo ni en desacuerdo
+4. De acuerdo
+5. Totalmente de acuerdo
+
+**merit_merit06**. Utilizando una escala de 1 a 5, ¿cuán de acuerdo se encuentra con las siguientes afirmaciones? - Las personas que trabajan duro merecen ganar más que las que no lo hacen
+
+1. Totalmente en desacuerdo
+2. En desacuerdo
+3. Ni de acuerdo ni en desacuerdo
+4. De acuerdo
+5. Totalmente de acuerdo
+
+
+**atencion**. Si está prestando atención a las instrucciones de esta encuesta, por favor seleccione el valor 5 en las opciones de respuesta de este ítem.
+
+1. Nada
+2. $-$
+3. $-$
+4. Algo
+5. $-$
+6. $-$
+7. Extremadamente
+
+**cpol01**. Ahora queremos saber cuánta información de actualidad y política maneja la gente. Por favor responda según su mejor parecer. No se preocupe si no sabe la respuesta ya que algunas son bastante difíciles.  Más allá de su propia opinión, ¿cuál de los siguientes partidos políticos es el que más se opone a que el Estado tenga un rol activo en la economía? [Leer alternativas. Marque solo una]
+
+1.	Unión Demócrata Independiente (UDI)
+2.	Partido Demócrata Cristiano (DC)
+3.	Partido Radical (PRSD)
+
+$\ \ $ -999 No sabe
+
+\newpage
+
+**cpol02**.  ¿De cuál de los siguientes países era presidente Rafael Correa? [Leer alternativas. Marque solo una]
+
+
+1. Venezuela
+2. Ecuador
+3. Colombia
+
+$\ \ $ -999 No sabe
+
+**cpol03**. En cuál de los siguientes partidos milita Giorgio Jackson? [Leer alternativas. Marque solo una]
+
+
+1. Partido Comunista (PC)
+2. Partido por la Democracia (PPD)
+3. Revolución Democrática (RD) o Frente Amplio
+
+$\ \ $ -999 No sabe
+
+
+**cpol04**. ¿De cuál de los siguientes ministerios está a cargo Felipe Larraín? [Leer alternativas. Marque solo una]
+
+
+1.	Economía
+2.	Hacienda
+3.	Secretaría de la Presidencia
+
+$\ \ $ -999 No sabe
+
+**cpol05**. ¿Cuántos diputados hay en la Cámara Baja?  [Leer alternativas. Marque solo una]
+
+1. 100 diputados
+2. 120 diputados
+3. 150 diputados
+
+$\ \ $ -999 No sabe
+
+**cpol06**. Por último, ¿diría usted que la polémica sobre el "Confort", donde están involucradas las empresas CMPC y SCA, se trata de un caso de …? [Leer alternativas. Marque solo una] 
+
+1. Colusión de precios
+2. Tráfico de influencias  en el congreso
+3. Sobresueldos a ministros
+
+$\ \ $ -999 No sabe
+
+\newpage
+
+**pospol_1**. Cambiando de tema, tradicionalmente en nuestro país la gente define las posiciones políticas como más cercanas a la izquierda, al centro o a la derecha. Usando una escala de 0 a 10 donde 0 es ser de “izquierda”, 5 es ser de “centro” y 10 es ser de “derecha”, ¿Dónde se ubicaría usted en esta escala? Marque el número que más le acomode.
+
+0. Izquierda
+1. $-$
+2. $-$
+3. $-$
+4. $-$
+5. Centro
+6. $-$
+7. $-$
+8. $-$
+9. $-$
+10. Derecha
+
+$\ \ $ -99 No sabe
+
+
+**ess_1**. En Chile, hay grupos que tienden a ubicarse en los niveles más altos y grupos que tienden a ubicarse en los niveles más bajos de la sociedad. Usando la escala presentada, donde 0 es el nivel más bajo y 10 el nivel más alto - ¿Dónde se ubicaría usted?
+
+0. El nivel más bajo
+1. $-$
+2. $-$
+3. $-$
+4. $-$
+5. $-$
+6. $-$
+7. $-$
+8. $-$
+9. $-$
+10. El nivel más alto
+
+$\ \ $ -99 No sabe
+
+\newpage
+
+**esshijos_1**. Si usted tiene actualmente hijos o si los tuviera en el futuro - ¿dónde cree usted que se ubicarían ellos?
+
+0. El nivel más bajo
+1. $-$
+2. $-$
+3. $-$
+4. $-$
+5. $-$
+6. $-$
+7. $-$
+8. $-$
+9. $-$
+10. El nivel más alto
+
+$\ \ $ -99 No sabe
+
+
+
+**comuna**. ¿En qué comuna vive?
+
+**sexo**. ¿Cuál es su sexo?
+
+1. Hombres
+2. Mujer
+
+**edad_anios**. ¿Cuál es su edad en años?
+
+**estcivil**. ¿Cuál es su estado civil o conyugal actual?
+
+1. Casado/a legalmente y vive con su esposo/a
+2. Conviviente o pareja sin acuerdo de unión civil
+3. Conviviente civil (con acuerdo de unión civil)
+4. Viudo/a
+5. Divorciado/a
+6. Separado/a (casado/a legalmente pero separado/a, no vive con su esposo/a legal)
+7. Soltero, nunca se ha casado
+
+\newpage 
+
+**edcat**. Sin tomar en cuenta las repeticiones de curso,  ¿cuál es su nivel educacional? 
+
+1.	No estudió
+2.	Educación básica incompleta
+3.	Educación básica completa
+4.	Educación media incompleta
+5.	Educación media completa
+6.	Educación superior no universitaria incompleta
+7.	Educación superior no universitaria completa
+8.	Educación universitaria incompleta
+9.	Educación universitaria completa
+10.	Estudios de postgrado, master, doctorado
+
+
+
+**ingresos**. De los siguientes tramos de ingresos mensuales que se presentan, ¿podría Ud. indicarme en cuál de ellos se encuentra este hogar, considerando todos los ingresos líquidos por sueldos y salarios de todas las personas que trabajan remuneradamente, jubilaciones, pensiones, aportes de parientes o amigos, arriendos y otros? 
+
+1.	Menos de $35.000 mensuales líquidos
+2.	De $35.001 a $56.000 mensuales líquidos
+3.	De $56.001 a $78.000 mensuales líquidos
+4.	De $78.001 a $101.000 mensuales líquidos
+5.	De $101.001 a $134.000 mensuales líquidos
+6.	De $134.001 a $179.000 mensuales líquidos
+7.	De $179.001 a $224.000 mensuales líquidos
+8.	De $224.001 a $291.000 mensuales líquidos
+9.	De $291.001 a $358.000 mensuales líquidos
+10.	De $358.001 a $448.000 mensuales líquidos
+11.	De $448.001 a $1.000.000 mensuales líquidos
+12.	De $1.000.001 a $2.000.000 mensuales líquidos
+13.	De $2.000.001 a $3.000.000 mensuales líquidos
+14.	Más de $3.000.000 mensuales líquidos
+
+
+**porig**. ¿Pertenece Ud. a alguno de los siguientes pueblos originarios o indígenas? 
+
+1.	Mapuche
+2.	Aymara
+3.	Diaguita
+4.	Otros (Alacalufe-Kawashkar,Atacameño -Likan Antai, Colla,  Quechua, Rapa Nui,Yámana (Yagán), Diaguita )
+14.	Ninguno de los Anteriores
+
+\newpage 
+
+**relig**. Podría Ud. decirme la religión o iglesia a la que pertenece o se siente más cercano? 
+
+1.	Católica
+2.	Evangélica
+3.	Testigo de Jehová
+4.	Judía
+5.	Mormona
+6.	Ortodoxa
+8.	Ninguna
+9.	Ateo
+10.	Agnóstico
+
+**estlab** ¿Cuál de estas situaciones describe mejor su actividad principal durante el último mes?    
+
+1.	Trabaja de manera remunerada con jornada completa
+2.	Trabaja de manera remunerada a tiempo parcial o hace trabajos ocasionales
+3.	Estudia y trabaja
+4.	Sólo estudia
+5.	Jubilado o pensionado
+6.	Desempleado, buscando trabajo
+7.	Realiza tareas no remuneradas (quehaceres del hogar, cuidando niños y otras personas)
+8.	Está enfermo o tiene una discapacidad
+9.	No estudia, no trabaja y no busca trabajo
+

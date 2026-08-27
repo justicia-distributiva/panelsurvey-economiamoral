@@ -1,0 +1,10 @@
+base
+sjPlot
+dplyr
+tidyr
+lavaan
+stargazer
+corrplot
+psych
+knitr
+kableExtra

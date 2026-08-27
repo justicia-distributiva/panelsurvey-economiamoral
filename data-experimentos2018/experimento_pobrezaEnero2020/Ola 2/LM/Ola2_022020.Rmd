@@ -1,0 +1,162 @@
+---
+title: "Analisis Estudio II"
+author: "LM"
+output: 
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+library(sjlabelled)
+library(sjPlot)
+library(dplyr)
+
+library(psych)
+library(ltm)
+
+library(lmtest)
+library(sandwich)
+library(texreg)
+library(xtable)
+```
+
+```{r message=FALSE, warning=FALSE}
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/Ola 2/LM')
+w02 <- read_spss("Estudio_3_ola2_020220.sav")
+dim(w02)
+names(w02)
+```
+
+```{r message=FALSE, warning=FALSE}
+# Fecha de respuesta
+######################
+table(w02$StartDate,exclude=NULL)
+
+# Aceptan y finalizan
+########################
+table(w02$Intro,exclude=NULL) # (2) 56 no aceptan, (1) 1799 aceptan, 14 NA
+
+w02a <- filter(w02,Intro==1) # Elimina los que no aceptan
+table(w02a$Intro,exclude=NULL) # 1799
+
+# Variables para ver si finalizo encuesta
+table(w02a$Finished,exclude=NULL) # (1) 1765 y (0) 34 no finalizan
+
+# Duracion
+table(w02a$Duration__in_seconds_,exclude=NULL)
+summary(w02a$Duration__in_seconds_) # 509/60= 8.48 minutos.
+```
+
+```{r message=FALSE, warning=FALSE}
+# ----------------Tratamiento----------------- #
+# Tratamiento
+table(w02a$FL_6_DO_Tratamiento,exclude=NULL) # 597
+table(w02a$FL_6_DO_Tratamiento_desigualdad,exclude=NULL) # 600
+table(w02a$FL_6_DO_Control,exclude=NULL) # 600
+
+w02a$tratamiento=NA
+w02a$tratamiento[w02a$FL_6_DO_Control==1]=0
+w02a$tratamiento[w02a$FL_6_DO_Tratamiento==1]=1
+w02a$tratamiento[w02a$FL_6_DO_Tratamiento_desigualdad==1]=2
+
+table(w02a$tratamiento,exclude=NULL) # 0 Control, 1 Pobreza, 2 Desigualdad
+```
+
+```{r message=FALSE, warning=FALSE}
+# ------------ Outcomes----------- #
+# get_ah_estr = Haber accedido a una educación de calidad ("edstr")
+table(w02a$get_ah_estr,exclude=NULL) # 21 NA
+w02a$edstr=w02a$get_ah_estr
+w02a$edstr[w02a$get_ah_estr==-99]=NA
+table(w02a$edstr,w02a$get_ah_estr,exclude=NULL)
+w02a$edstr=as.numeric(w02a$edstr)
+str(w02a$edstr)
+
+# get_ah_1 = Provenir de una familia rica o con muchos recursos ("ofamilia")
+table(w02a$get_ah_1,exclude=NULL) # 21 NA
+w02a$ofamilia=w02a$get_ah_1
+w02a$ofamilia[w02a$get_ah_1==-99]=NA
+table(w02a$ofamilia,w02a$get_ah_1,exclude=NULL)
+w02a$ofamilia=as.numeric(w02a$ofamilia)
+str(w02a$ofamilia)
+
+# get_ah_3 = Que usted tenga un buen nivel de educación ("selfed")
+table(w02a$get_ah_3,exclude=NULL) # 21 NA
+w02a$selfed=w02a$get_ah_3
+w02a$selfed[w02a$get_ah_3==-99]=NA
+table(w02a$selfed,w02a$get_ah_3,exclude=NULL)
+w02a$selfed=as.numeric(w02a$selfed)
+str(w02a$selfed)
+
+# get_ah_5 = El trabajo duro ("hwork")
+table(w02a$get_ah_5,exclude=NULL) # 21 NA
+w02a$hwork=w02a$get_ah_5
+w02a$hwork[w02a$get_ah_5==-99]=NA
+table(w02a$hwork,w02a$get_ah_5,exclude=NULL)
+w02a$hwork=as.numeric(w02a$hwork)
+str(w02a$hwork)
+
+# get_ah_indv = Haber alcanzado un buen nivel de educación ("edind")
+table(w02a$get_ah_indv,exclude=NULL) # 21 NA
+w02a$edind=w02a$get_ah_indv
+w02a$edind[w02a$get_ah_indv==-99]=NA
+table(w02a$edind,w02a$get_ah_indv,exclude=NULL)
+w02a$edind=as.numeric(w02a$edind)
+str(w02a$edind)
+
+prop.table(table(w02a$ofamilia))
+prop.table(table(w02a$hwork))
+prop.table(table(w02a$edstr))
+prop.table(table(w02a$edind))
+prop.table(table(w02a$selfed))
+
+corr <- w02a %>% dplyr:: select(ofamilia,hwork,edstr,edind,selfed)
+str(corr)
+
+polychoric(corr)
+cor(corr, use="complete.obs", method="kendall") 
+
+# Estandarizacion
+w02a$zofamilia <- scale(w02a$ofamilia)
+w02a$zhwork <- scale(w02a$hwork)
+w02a$zedstr <- scale(w02a$edstr)
+w02a$zedind <- scale(w02a$edind)
+w02a$zselfed <- scale(w02a$selfed)
+```
+
+```{r message=FALSE, warning=FALSE}
+# ------------ATEs----------- #
+# Origen
+m1a <- lm(zofamilia~factor(tratamiento),data=w02a)
+m1a1 = coeftest(m1a, vcov.= vcovHC(m1a, "HC2"))
+screenreg(l=list(m1a1), single.row = TRUE, stars = c(0.01, 0.05))
+
+# Trabajo duro
+m2a <- lm(zhwork~factor(tratamiento),data=w02a)
+m2a1 = coeftest(m2a, vcov.= vcovHC(m2a, "HC2"))
+screenreg(l=list(m2a1), single.row = TRUE, stars = c(0.01, 0.05))
+
+# Haber accedido a una educación de calidad ("edstr")
+m3a <- lm(zedstr~factor(tratamiento),data=w02a)
+m3a1 = coeftest(m3a, vcov.= vcovHC(m3a, "HC2"))
+screenreg(l=list(m3a1), single.row = TRUE, stars = c(0.01, 0.05))
+
+# Haber accedido a una educación de calidad ("edstr")
+m3a <- lm(zedstr~factor(tratamiento),data=w02a)
+m3a1 = coeftest(m3a, vcov.= vcovHC(m3a, "HC2"))
+screenreg(l=list(m3a1), single.row = TRUE, stars = c(0.01, 0.05))
+
+# Haber alcanzado un buen nivel de educación ("edind")
+m4a <- lm(zedind~factor(tratamiento),data=w02a)
+m4a1 = coeftest(m4a, vcov.= vcovHC(m3a, "HC2"))
+screenreg(l=list(m4a1), single.row = TRUE, stars = c(0.01, 0.05))
+
+# Que usted tenga un buen nivel de educación ("selfed")
+m5a <- lm(zselfed~factor(tratamiento),data=w02a)
+m5a1 = coeftest(m5a, vcov.= vcovHC(m3a, "HC2"))
+screenreg(l=list(m5a1), single.row = TRUE, stars = c(0.01, 0.05))
+```
+
+
+

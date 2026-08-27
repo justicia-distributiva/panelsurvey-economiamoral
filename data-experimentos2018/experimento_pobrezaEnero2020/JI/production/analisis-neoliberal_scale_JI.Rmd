@@ -1,0 +1,204 @@
+---
+title: "Análisis Neoliberal Scale"
+author: "Julio César Iturra Sanhueza"
+date: "05-08-2019"
+output:
+  html_document: 
+    code_folding: hide
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r message=FALSE, warning=FALSE}
+library(dplyr)
+library(knitr)
+library(psych)
+library(questionr)
+library(kableExtra)
+library(sjlabelled)
+library(sjPlot)
+library(lavaan)
+library(ggplot2) 
+rm(list=ls())
+```
+
+```{r include=FALSE}
+knitr::opts_chunk$set(warning = FALSE,message = FALSE, cache = FALSE,results = "hold")
+knitr::opts_knit$set(root.dir = "../")
+options(scipen=999)
+rm(list=ls())
+options(knitr.kable.NA = '') 
+```
+
+```{r}
+data <- read_spss(path = "input/data/original/Estudio_3_ola3.sav",verbose = F,enc = "UTF-8") 
+```
+
+```{r}
+dat01 <- data %>% select(starts_with("nb_")) 
+```
+
+```{r}
+# view_df(dat01, show.prc = T,verbose = F,remove.spaces = F,
+#         CSS = list(css.table = "border: 2px solid;",
+#                    css.tdata = "border: 1px solid;",
+#                    css.firsttablecol = "color:#003399; font-weight:bold;"))
+```
+
+```{r}
+kable(get_label(dat01),col.names = "etiqueta") %>% kable_styling(font_size = 9)
+```
+
+```{r}
+
+group <- c("nb_syst_1"=1,"nb_syst_2"=1,"nb_syst_3"=1,"nb_syst_4"=1,"nb_syst_5"=1,"nb_syst_6"=1,"nb_syst_7"=1,
+           "nb_comp_1"=2,"nb_comp_2"=2,"nb_comp_3"=2,"nb_comp_4"=2,"nb_comp_5"=2,
+           "nb_merit_1"=3,"nb_merit_2"=3,"nb_merit_3"=3,"nb_merit_4"=3,"nb_merit_5"=3,"nb_merit_6"=3,"nb_merit_7"=3,"nb_merit_8"=3,
+           "nb_gvint_1"=4,"nb_gvint_2"=4,"nb_gvint_3"=4,"nb_gvint_4"=4,"nb_gvint_5"=4)
+for(i in 1:ncol(dat01)){
+dat01[,i] <- factor(dat01[,i],ordered = TRUE,labels = c("Totalmente en desacuerdo","En desacuerdo","Ni de acuerdo ni en desacuerdo","De acuerdo","Totalmente de acuerdo"))
+}
+```
+
+# Descriptivos
+
+```{r, out.width = '100%', fig.height=13, fig.width=13}
+sjPlot::plot_likert(items = dat01,groups = group,groups.titles = c("System inequality",
+                                                                   "Competition",
+                                                                   "Personal wherewithal (meritocracy)",
+                                                                   "Goverment Interference"),
+                    cat.neutral = 3,
+                    show.n = TRUE,values="show",
+                    reverse.scale = TRUE)  
+  # theme(axis.text=element_text(size=12, face="plain"),
+  #       axis.title=element_text(size=14,face="plain"),
+  #       plot.title=element_text(hjust=0.5,size = 14,face = "bold"),
+  #       legend.position = "bottom",
+  #       plot.subtitle = element_text(hjust=0,size = 12,face = "italic"))
+```
+
+```{r}
+neo <- data %>% select(starts_with("nb_"))
+```
+
+```{r}
+stargazer::stargazer(neo,type = "text",median = T)
+```
+
+```{r}
+corp_1 <- psych::polychoric(x = select(neo,starts_with("nb_syst")),na.rm = T)
+corp_2 <- psych::polychoric(x = select(neo,starts_with("nb_comp")),na.rm = T)
+corp_3 <- psych::polychoric(x = select(neo,starts_with("nb_merit")),na.rm = T)
+corp_4 <- psych::polychoric(x = select(neo,starts_with("nb_gvint")),na.rm = T)
+```
+
+# Correlación
+
+## System inequality
+```{r,out.width = '100%', fig.height=10, fig.width=10}
+corrplot::corrplot(corp_1$rho,method = "color", type = "upper", order = "hclust", tl.col = "black", tl.srt = 45,addCoef.col = "black",diag = FALSE)
+```
+
+* Items nb_sys_3 y nb_syst_4 correlacionan mejor entre sí, pero no con los demás.
+* Items nb_syst_1, nb_syst_2,nb_syst_5,nb_syst_6 y nb_syst_7 correlacionan mejor.
+
+## Competition
+```{r, out.width = '100%', fig.height=10, fig.width=10}
+corrplot::corrplot(corp_2$rho,method = "color", type = "upper", order = "hclust", tl.col = "black", tl.srt = 45,addCoef.col = "black",diag = FALSE)
+```
+
+## Personal wherewithal (meritocracy)
+
+```{r, out.width = '100%', fig.height=10, fig.width=10}
+corrplot::corrplot(corp_3$rho,method = "color", type = "upper", order = "hclust", tl.col = "black", tl.srt = 45,addCoef.col = "black",diag = FALSE)
+```
+
+## Goverment Interference
+
+```{r, out.width = '100%', fig.height=10, fig.width=10}
+corrplot::corrplot(corp_4$rho,method = "color", type = "upper", order = "hclust", tl.col = "black", tl.srt = 45,addCoef.col = "black",diag = FALSE)
+```
+
+# Análisis 
+
+## Exploratorio
+```{r}
+sjt.itemanalysis(select(sjlabelled::remove_label(neo),starts_with("nb_syst")),factor.groups.titles = "System inequality")
+sjt.itemanalysis(select(sjlabelled::remove_label(neo),starts_with("nb_comp")),factor.groups.titles = "Competition")
+sjt.itemanalysis(select(sjlabelled::remove_label(neo),starts_with("nb_merit")),factor.groups.titles = "Personal wherewithal (meritocracy)")
+sjt.itemanalysis(select(sjlabelled::remove_label(neo),starts_with("nb_gvint")),factor.groups.titles = "Goverment Interference")
+# sjt.itemanalysis(df = sjlabelled::remove_label(neo))
+```
+
+```{r}
+sjt.fa(data = sjlabelled::remove_label(neo),show.comm = T) # default roation = "promax"
+```
+
+## Confirmatorio
+
+```{r}
+dat02 <- data %>% select(starts_with("nb_"),-nb_merit_8)
+for(i in 1:ncol(dat02)){
+dat02[,i] <- as_numeric(dat02[,i])
+}
+```
+
+```{r}
+# sjt.fa(data = sjlabelled::remove_label(dat02),show.comm = T) # default roation = "promax"
+```
+
+### Indicadores Continuos 
+```{r}
+m01 <- 'syst =~nb_syst_1+nb_syst_2+nb_syst_3+nb_syst_4+nb_syst_5+nb_syst_6
+        comp =~nb_comp_1+nb_comp_2+nb_comp_3+nb_comp_4+nb_comp_5
+        merit=~nb_merit_1+nb_merit_2+nb_merit_3+nb_merit_4+nb_merit_5+nb_merit_6+nb_merit_7
+        gvint=~nb_gvint_1+nb_gvint_2+nb_gvint_3+nb_gvint_4+nb_gvint_5'
+fitm01 <- cfa(model = m01,data = dat02, estimator="MLR")
+```
+
+```{r}
+modelo01<- fitmeasures(fitm01)[c("cfi","cfi.scaled","cfi.robust","rmsea","rmsea.scaled","rmsea.robust")]
+fitmeasures(fitm01,output = "text")
+kable(filter(standardizedsolution(fitm01),op=="=~"),format = "markdown",digits = 3)
+```
+
+### Indicadores ordinales 
+
+```{r}
+m02 <- 'syst =~nb_syst_1+nb_syst_2+nb_syst_3+nb_syst_4+nb_syst_5+nb_syst_6
+        comp =~nb_comp_1+nb_comp_2+nb_comp_3+nb_comp_4+nb_comp_5
+        merit=~nb_merit_1+nb_merit_2+nb_merit_3+nb_merit_4+nb_merit_5+nb_merit_6+nb_merit_7
+        gvint=~nb_gvint_1+nb_gvint_2+nb_gvint_3+nb_gvint_4+nb_gvint_5'
+
+fitm02 <- cfa(model = m02,data = dat02,
+              ordered = c("nb_syst_1","nb_syst_2","nb_syst_3","nb_syst_4","nb_syst_5","nb_syst_6",
+                          "nb_comp_1","nb_comp_2","nb_comp_3","nb_comp_4","nb_comp_5",
+                          "nb_merit_1","nb_merit_2","nb_merit_3","nb_merit_4","nb_merit_5","nb_merit_6","nb_merit_7",
+                          "nb_gvint_1","nb_gvint_2","nb_gvint_3","nb_gvint_4","nb_gvint_5"))
+```
+
+```{r}
+fitmeasures(fitm02,output = "text")
+kable(filter(standardizedsolution(fitm02),op=="=~"),format = "markdown",digits = 3)
+```
+
+## Summary
+```{r}
+modelo01<- fitmeasures(fitm01)[c("cfi","cfi.scaled","cfi.robust","rmsea","rmsea.scaled","rmsea.robust")]
+modelo02<- fitmeasures(fitm02)[c("cfi","cfi.scaled","cfi.robust","rmsea","rmsea.scaled","rmsea.robust")]
+kable(rbind(modelo01,modelo02),format = "html", digits = 3,row.names = T) %>% kable_styling(full_width = F)
+```
+
+
+```{r eval=FALSE, include=FALSE}
+rmarkdown::render(input = "production/analisis-neoliberal_scale_JI.Rmd",
+                  output_format = "html_document",
+                  output_dir = ".",
+                  encoding = "UTF-8")
+```
+
+

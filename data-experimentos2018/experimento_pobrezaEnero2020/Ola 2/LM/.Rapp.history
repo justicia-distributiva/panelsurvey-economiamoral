@@ -1,0 +1,338 @@
+12000*670
+4500/12
+?rbinom
+433 - 346:
+...
+433 - 346
+409 - 346
+1.2+1+0.8+1+1.2+0.8
+1+1.2+1+0.6+1+1.2
+(27 + 61 + 42)/3
+meanY1 <- (((27 + 61)/2) + 27 + ((27 + 61)/2 + 42) + 61)/5
+meanY0 <- (23 + ((23 + 58)/2) + 58 + ((23 + 58)/2) + ((23 + 58)/2))/5
+meanY1 - meanY0
+43.33 - 40.5
+(27 + 61 + 42)/3 - (23 + 58)/2
+meanY1 <- (((27 + 61 + 42)/3) + 27 + ((27 + 61 + 42)/3 + 42) + 61)/5
+meanY1 - meanY0
+3/5 # Porcentaje de tratados
+(0/0.6) + ((1-0)/(1-0.6)) # Ponderador para los controles
+(1/0.6) + ((1-1)/(1-0.6)) # Ponderador para los tratados
+2.5+2.5
+1.666667*3
+(7*6*5*4*3*2*1)/((3*2*1)*(2*1))
+(7*6*5*4*3*2*1)/((3*2*1)*(4*3*2*1))
+(27 + 61 + 42)/3 - (23 + 58)/2
+(23 + 58)/2
+(27 + 61 + 42)/3
+pwd
+2.68*10^-1
+library(splines)
+data(women)
+summary(fm1 <- lm(weight ~ ns(height, df = 5), data = women))
+plot(women, xlab = "Height (in)", ylab = "Weight (lb)")#
+ht <- seq(57, 73, length.out = 200)#
+lines(ht, predict(fm1, data.frame(height = ht)))
+names(women)
+load("/Users/luismaldonado/Dropbox/Sol3026_3063/2019/Ejercicios/Ejercicio 2/county_df_pointdata_long.RData")
+table(county_df_long$election)
+dat_ps <- county_df_long[county_df_long$election == i+1,]
+for (i in 1:2) {#
+   dat_ps <- county_df_long[county_df_long$election == i+1,]#
+}
+table(dat_ps$election)
+for (i in 1:4) {#
+   dat_ps <- county_df_long[county_df_long$election == i+1,]#
+}
+table(dat_ps$election)
+visit_10km_nomatch
+table(county_df_long$visit_10km_nomatch)
+(40*100)/800
+(40*800)*100
+800/40
+(800*40)/100
+27000/1600
+27000*1000
+27000000/1600
+17000*1000
+factorial(6)
+factorial(6)/(factorial(2)*fatorial(4))
+factorial(6)/(factorial(2)*factorial(4))
+530000*698
+37/12
+dat <- fabricate(#
+      N = 40,#
+      Y = rpois(N, lambda = 4),#
+      Z = rbinom(N, 1, prob = 0.4),#
+      D  = Z * rbinom(N, 1, prob = 0.8),#
+      X = rnorm(N),#
+      G = sample(letters[1:4], N, replace = TRUE)#
+)
+library(fabricatr)
+dat <- fabricate(#
+      N = 40,#
+      Y = rpois(N, lambda = 4),#
+      Z = rbinom(N, 1, prob = 0.4),#
+      D  = Z * rbinom(N, 1, prob = 0.8),#
+      X = rnorm(N),#
+      G = sample(letters[1:4], N, replace = TRUE)#
+)
+segundopaso<- iv_robust(Y ~ D | Z + X, data = dat, se_type = "stata"))
+segundopaso<- iv_robust(Y ~ D | Z + X, data = dat, se_type = "stata")
+library(estimatr)
+segundopaso <- iv_robust(Y ~ D | Z + X, data = dat, se_type = "stata")
+summary(segundopaso)
+segundopaso <- iv_robust(Y ~ D + X | Z + X, data = dat, se_type = "stata")
+summary(segundopaso)
+primerpaso <- iv_robust(D ~ Z + X, data = dat, se_type = "stata")
+primerpaso <- lm_robust(D ~ Z + X, data = dat, se_type = "stata")
+summary(primerpaso)
+1.2+0.5+0.6+1+1+1+1.5
+3+806+0+123+514+743+126+25
+693.99*500
+697*500
+68-12
+(6.2 + 6.0 + 6.2)/3
+(5.7 + 5.8 + 5.5)/3
+(6.0 + 5.9 + 5.8)/3
+(5.4 + 6.1 + 5.8)/3
+(6.0 + 6.2 + 6.0)/3
+68-12
+5.9 - (0.2*7)
+5.8 - (0.2*6)
+699/12
+3+50+54+110+353+44+156+215+16
+139+210+196+170+287
+476+525
+60*0.28
+1+5+40+120+363+55+166+225+25
+3.3+49.5+53.5+110.2+352.9+43.7+156.1+214.6+16.1
+13.2 + 40.4
+6.4+24.7
+24.8 + 45.4
+48.9 + 23.7
+684*550
+(6.0+6.2+6.2)/3
+(6.1+6.0+6.1)/3
+0.20*6.4 + 0.70*6.7 + 0.10*7.0
+0.20*6.2 + 0.70*6.2 + 0.10*6.3
+0.20*6.2 + 0.70*6.2 + 0.10*6.5
+0.20*6.0 + 0.70*6.0 + 0.10*6.3
+0.10*3.0 + 0.10*6.1 + 0.70*6.1 + 0.10*6.0
+0.10*5.5 + 0.10*6.1 + 0.70*6.1 + 0.10*6.0
+11-5
+19:00-6
+19-6
+1200000-160000
+2+3+1+1
+3000-250
+250+790
+7+4+2+1+3+1
+0.20*6.7 + 0.10*6.9 + 0.20*6.5 + 0.05*7.0 + 0.10*6.3 + 0.35*6.5.
+0.20*6.7 + 0.10*6.9 + 0.20*6.5 + 0.05*7.0 + 0.10*6.3 + 0.35*6.5
+0.20*6.6 + 0.10*6.8 + 0.20*6.5 + 0.05*7.0 + 0.10*5.8 + 0.35*6.2
+0.20*6.1 + 0.10*6.6 + 0.20*6.4 + 0.05*5.2 + 0.10*5.8 + 0.35*6.2
+0.20*6.7 + 0.10*6.9 + 0.20*6.5 + 0.05*6.8 + 0.10*6.3 + 0.35*6.5
+3471.48/60
+2400*1000
+24000*1000
+(24000*0.23)
+5520*1000
+5520000/100
+365/2
+a <- c(1,2,3,4,5,6)
+b <- c(1,1,1,2,2,2)
+1+2+3
+4+5+6
+6+15
+1+2+3+4+5+6
+m <- matrix(1:20, 4)
+sigma <- 1:ncol(m)
+omega <- 1:nrow(m)
+mu <- 2
+m
+omega
+sigma
+sum(a)
+xs <- cbind(1:3, 4:6)
+xs
+omega
+sigmas
+# n = 3, m = 2#
+xs <- cbind(1:3, 4:6)#
+omegas <- 1:3#
+sigmas <- 1:2#
+mu <- 3#
+#
+sum((t((xs - mu) / omegas) / sigmas)^2)
+sigmas
+mu
+omegas
+xs
+y <- matrix(runif(1000),100,100)
+y
+y <- matrix(runif(1000),10,10)
+y
+mean <- mean(y)
+double_summation = 0
+for (i in 1:nrow(y)) {#
+    for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j] - mean)#
+    }#
+}
+double_summation
+y <- matrix(runif(1000),2,2)
+y
+for (i in 1:nrow(y)) {#
+    for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j] - mean)#
+    }#
+}#
+#
+double_summation
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j] - mean)#
+    }
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j] - mean)#
+    }#
+#
+double_summation
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j])#
+    }#
+#
+double_summation
+0.5832174+0.6927825
+0.5652450 +0.1291651
+1.276+0.6944101
+for (j in 1:ncol(y)) {#
+        double_summation = (y[j])#
+    }#
+#
+double_summation
+y
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j])#
+    }#
+#
+double_summation
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j])#
+    }#
+#
+double_summation
+y
+0.5832174 + 0.6927825
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j])#
+    }#
+#
+double_summation
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[,j])#
+    }#
+#
+double_summation
+y
+0.5832174+ 0.5652450
+0.6927825+ 0.1291651
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j])#
+    }#
+#
+double_summation
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j])#
+    }#
+#
+double_summation
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j])#
+    }#
+#
+double_summation
+library(car)
+?recode
+0.33^2
+0.226^2
+43+48
+300*6
+0.45^2
+-0.07^2
+300*6
+44/3
+1180+552
+300/13
+23*3
+23*13
+370/13
+370/23
+370000/(13*4)
+300000/(13*4)
+70000/5770
+13*4 + 12
+64/4
+21.1+45.2
+23.9+48.7
+2.2+17.6
+23.7+50.2
+48.8+39.1
+39.7+43.6
+49.8+36.3
+21.5+46.4
+0.07^2
+1500.32*2100
+3150672*3
+1500.32*2100 + 1500.32*1800 + 1500.32*1800 + 49181.03*3
+0.432 - 0.282
+0.495 - 0.46
+370-250
+(10*370)/100
+exp(.1119527)
+897+421
+25900000-10187051
+(120+370)*4
+120000+370000
+490000*4
+14897949 - 1960000
+800*600
+370*4
+370*4 + 120*4 + 700*4
+0.5+0.5+0.9+0.5+0.5+0.4+0.3+0.4+0.2+0.2+0.2+0.4+1
+0.5+0.5+0.6+0.3+0.5+0.3+0.3+0.5+0.3+0.2+0.2+0.4+1
+0.5+0.5+0.9+0.5+0.5+0.5+0.3+0.5+0.5+0.2+0.1+0.5+1
+(6.6+6.4)/2
+(6.0+6.3)/2
+a <- c(1,2,3)
+a
+?sample
+sample(a,1)
+1:3 %in% sample(1:3,1)
+1:2 %in% sample(1:2,1)
+700-250
+1037+811
+2000- 1848
+55+821+605+367
+152/3
+252/3
+84*3
+(13*75)/100
+120+370+700
+1190000*3
+2100*0.6
+13*0.75
+1176+623+843
+16.1+27.7+20.8
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/Ola 2/LM')
+library(sjlabelled)

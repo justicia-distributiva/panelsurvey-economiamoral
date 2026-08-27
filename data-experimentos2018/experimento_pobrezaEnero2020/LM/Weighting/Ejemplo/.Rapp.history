@@ -1,0 +1,405 @@
+19-6
+1200000-160000
+2+3+1+1
+3000-250
+250+790
+7+4+2+1+3+1
+0.20*6.7 + 0.10*6.9 + 0.20*6.5 + 0.05*7.0 + 0.10*6.3 + 0.35*6.5.
+0.20*6.7 + 0.10*6.9 + 0.20*6.5 + 0.05*7.0 + 0.10*6.3 + 0.35*6.5
+0.20*6.6 + 0.10*6.8 + 0.20*6.5 + 0.05*7.0 + 0.10*5.8 + 0.35*6.2
+0.20*6.1 + 0.10*6.6 + 0.20*6.4 + 0.05*5.2 + 0.10*5.8 + 0.35*6.2
+0.20*6.7 + 0.10*6.9 + 0.20*6.5 + 0.05*6.8 + 0.10*6.3 + 0.35*6.5
+3471.48/60
+2400*1000
+24000*1000
+(24000*0.23)
+5520*1000
+5520000/100
+365/2
+a <- c(1,2,3,4,5,6)
+b <- c(1,1,1,2,2,2)
+1+2+3
+4+5+6
+6+15
+1+2+3+4+5+6
+m <- matrix(1:20, 4)
+sigma <- 1:ncol(m)
+omega <- 1:nrow(m)
+mu <- 2
+m
+omega
+sigma
+sum(a)
+xs <- cbind(1:3, 4:6)
+xs
+omega
+sigmas
+# n = 3, m = 2#
+xs <- cbind(1:3, 4:6)#
+omegas <- 1:3#
+sigmas <- 1:2#
+mu <- 3#
+#
+sum((t((xs - mu) / omegas) / sigmas)^2)
+sigmas
+mu
+omegas
+xs
+y <- matrix(runif(1000),100,100)
+y
+y <- matrix(runif(1000),10,10)
+y
+mean <- mean(y)
+double_summation = 0
+for (i in 1:nrow(y)) {#
+    for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j] - mean)#
+    }#
+}
+double_summation
+y <- matrix(runif(1000),2,2)
+y
+for (i in 1:nrow(y)) {#
+    for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j] - mean)#
+    }#
+}#
+#
+double_summation
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j] - mean)#
+    }
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j] - mean)#
+    }#
+#
+double_summation
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j])#
+    }#
+#
+double_summation
+0.5832174+0.6927825
+0.5652450 +0.1291651
+1.276+0.6944101
+for (j in 1:ncol(y)) {#
+        double_summation = (y[j])#
+    }#
+#
+double_summation
+y
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j])#
+    }#
+#
+double_summation
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j])#
+    }#
+#
+double_summation
+y
+0.5832174 + 0.6927825
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j])#
+    }#
+#
+double_summation
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[,j])#
+    }#
+#
+double_summation
+y
+0.5832174+ 0.5652450
+0.6927825+ 0.1291651
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j])#
+    }#
+#
+double_summation
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j])#
+    }#
+#
+double_summation
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j])#
+    }#
+#
+double_summation
+library(car)
+?recode
+0.33^2
+0.226^2
+43+48
+300*6
+0.45^2
+-0.07^2
+300*6
+44/3
+1180+552
+300/13
+23*3
+23*13
+370/13
+370/23
+370000/(13*4)
+300000/(13*4)
+70000/5770
+13*4 + 12
+64/4
+21.1+45.2
+23.9+48.7
+2.2+17.6
+23.7+50.2
+48.8+39.1
+39.7+43.6
+49.8+36.3
+21.5+46.4
+0.07^2
+1500.32*2100
+3150672*3
+1500.32*2100 + 1500.32*1800 + 1500.32*1800 + 49181.03*3
+0.432 - 0.282
+0.495 - 0.46
+370-250
+(10*370)/100
+exp(.1119527)
+897+421
+25900000-10187051
+(120+370)*4
+120000+370000
+490000*4
+14897949 - 1960000
+800*600
+370*4
+370*4 + 120*4 + 700*4
+0.5+0.5+0.9+0.5+0.5+0.4+0.3+0.4+0.2+0.2+0.2+0.4+1
+0.5+0.5+0.6+0.3+0.5+0.3+0.3+0.5+0.3+0.2+0.2+0.4+1
+0.5+0.5+0.9+0.5+0.5+0.5+0.3+0.5+0.5+0.2+0.1+0.5+1
+(6.6+6.4)/2
+(6.0+6.3)/2
+a <- c(1,2,3)
+a
+?sample
+sample(a,1)
+1:3 %in% sample(1:3,1)
+1:2 %in% sample(1:2,1)
+700-250
+1037+811
+2000- 1848
+55+821+605+367
+152/3
+252/3
+84*3
+(13*75)/100
+120+370+700
+1190000*3
+2100*0.6
+13*0.75
+1176+623+843
+16.1+27.7+20.8
+61.65*795.12
+3+13+3+13+16
+28393.3*7000
+745+659
+749+661
+750+663
+600000*4
+10+15+5+16
+757-708
+757445-708153
+15+10+16+5
+15+10+20+5
+4092301+1911914
+1885969+1911914
+4092301 - (1885969+1911914)
+409*10
+4092301+625000
+4717301/10
+471*2
+(2000+3000)/2
+(2000+3999)/2
+(8000+9999)/2
+3510+4689
+300-28
+3/12
+700/4
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+# Dos bloques: pr=50#
+ID <-c(1,2,3,4,5,6)#
+D <- c(0,0,0,1,1,1)#
+Y <- c(25,50,10,65,70,69)#
+#
+base <- cbind(ID,D,Y)#
+base <- as.data.frame(base)#
+#
+base$pr1 <- c(0.5,0.5,0.5,0.5,0.5,0.5)#
+#
+base$w <- with(base, 1/pr1)
+base
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+w = base$w#
+u = Y*w#
+Z = sum(w)#
+n = length(Y)#
+n1 = sum(D)#
+v = u * n / Z#
+Tx = D == 1
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+mean( Y[Tx] ) - mean( Y[!Tx] )
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+(sum(Y[D==1]*w[D==1]) - sum(Y[D==0]*w[D==0]))/length(Y)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+Z1 = sum(w[Tx])
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+Z0 = sum(w[!Tx])
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+sum(u[Tx])/Z1 - sum(u[!Tx]) /Z0
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+# Dos bloques, probabilidades distintas#
+ID <-c(1,2,3,4,5,6)#
+X <- c(0,0,1,1,1,1)#
+D <- c(0,1,0,1,1,1)#
+Y <- c(25,50,10,65,70,69)#
+#
+base <- cbind(ID,X,D,Y,D2)#
+base <- as.data.frame(base)#
+#
+base$pr1 <- c(0.5,0.5,0.25,0.75,0.75,0.75)#
+base$w <- with(base, 1/pr1)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+# Dos bloques, probabilidades distintas#
+ID <-c(1,2,3,4,5,6)#
+X <- c(0,0,1,1,1,1)#
+D <- c(0,1,0,1,1,1)#
+Y <- c(25,50,10,65,70,69)#
+#
+base <- cbind(ID,X,D,Y)#
+base <- as.data.frame(base)#
+#
+base$pr1 <- c(0.5,0.5,0.25,0.75,0.75,0.75)#
+base$w <- with(base, 1/pr1)
+base
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+stratify = function( wts, K ) {#
+	cut( wts, breaks=quantile(wts,(0:K)/K), include.lowest=TRUE )#
+}
+base
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+strats = stratify( base$w, K=2 )
+strats
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+base$strats = stratify( base$w, K=2 )
+base
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+w = base$w#
+u = Y*w#
+Z = sum(w)#
+n = length(Y)#
+n1 = sum(D)#
+v = u * n / Z#
+Tx = D == 1
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+calc.tau.ps = function( Y, Tx, b ) {#
+	stopifnot( !is.null(b) & !is.null(Tx) & !is.null(Y))#
+	n = length(Y)#
+#
+	mns = tapply( Y, list( b, Tx ), mean )#
+	tx <- sum( (mns[,2] - mns[,1]) * table(b)/n )#
+#
+	tx#
+}
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+(sum(Y[D==1]*w[D==1]) - sum(Y[D==0]*w[D==0]))/length(Y)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+# double-hajek#
+Z1 = sum(w[Tx])#
+Z0 = sum(w[!Tx])#
+sum(u[Tx])/Z1 - sum(u[!Tx]) /Z0
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+strats = stratify( base$w, K=2 )
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+tau.ps = calc.tau.ps( u, Tx, strats )
+tau.ps
+tapply( u, list( strats, Tx ), mean )
+base
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+# Dos bloques, probabilidades distintas#
+ID <-c(1,2,3,4,5,6)#
+X <- c(0,0,1,1,1,1)#
+D <- c(0,1,0,0,1,1)#
+Y <- c(25,50,10,65,70,69)#
+#
+base <- cbind(ID,X,D,Y)#
+base <- as.data.frame(base)#
+#
+base$pr1 <- c(0.5,0.5,0.25,0.75,0.75,0.75)#
+base$w <- with(base, 1/pr1)
+base
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+w = base$w#
+u = Y*w#
+Z = sum(w)#
+n = length(Y)#
+n1 = sum(D)#
+v = u * n / Z#
+Tx = D == 1
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+strats = stratify( base$w, K=2 )
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+tapply( u, list( strats, Tx ), mean )
+base
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+base$strats = stratify( base$w, K=2 )
+base
+(50*2)/1
+(25*2 + 10*4)/2
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+mns= tapply( u, list( strats, Tx ), mean )
+mns
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+sum( (mns[,2] - mns[,1]) * table(strats)/n )
+table(strats)
+n
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+# Dos bloques, probabilidades distintas#
+ID <-c(1,2,3,4,5,6)#
+X <- c(0,0,1,1,1,1)#
+D <- c(0,1,0,1,1,1)#
+Y <- c(25,50,10,65,70,69)#
+#
+base <- cbind(ID,X,D,Y)#
+base <- as.data.frame(base)#
+#
+base$pr1 <- c(0.5,0.5,0.25,0.75,0.75,0.75)#
+base$w <- with(base, 1/pr1)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+w = base$w#
+u = Y*w#
+Z = sum(w)#
+n = length(Y)#
+n1 = sum(D)#
+v = u * n / Z#
+Tx = D == 1
+summary(lm(Y~Tx))
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+mean( Y[Tx] ) - mean( Y[!Tx] )
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+(sum(Y[D==1]*w[D==1]) - sum(Y[D==0]*w[D==0]))/length(Y)
+summary(lm(Y~Tx,weights=w))
+summary(lm(u~Tx,))
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/LM/Weighting/Ejemplo')
+(sum(Y[D==1]*w[D==1]) - sum(Y[D==0]*w[D==0]))/length(Y)
+summary(lm(v~Tx,))

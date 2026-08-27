@@ -1,0 +1,183 @@
+---
+title: "Analisis Estudio II"
+author: "LM"
+output: 
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/analisis pilotos/estudio-II')
+```
+
+```{r message=FALSE, warning=FALSE}
+library(sjlabelled)
+library(dplyr)
+library(stargazer)
+library(texreg)
+```
+
+```{r message=FALSE, warning=FALSE}
+dat01 <- read_spss(path = "pilot-estudio2.sav",verbose = FALSE)
+dim(dat01)
+# names(dat01)
+```
+
+```{r}
+dat01$TRATAMIENTO <- NA
+dat01$TRATAMIENTO[dat01$FL_9_DO_Control==1]                  <- 0 #control cigarros
+dat01$TRATAMIENTO[dat01$FL_9_DO_Tratamiento    ==1]          <- 1 #pobreza
+dat01$TRATAMIENTO[dat01$FL_9_DO_Tratamiento_desigualdad ==1] <- 2 #Desigualdad
+
+dat01$TRATAMIENTO <- factor(x = dat01$TRATAMIENTO,
+                           levels = c(0,1,2),
+                           labels = c("Control",
+                                      "Tratamiento pobreza",
+                                      "Tratamiento desigualdad"))
+dat01$POBREZA <- NA
+dat01$POBREZA[dat01$FL_9_DO_Control==1]                      <- 0 #control cigarros
+dat01$POBREZA[dat01$FL_9_DO_Tratamiento ==1]                 <- 1 #pobreza
+dat01$DESIGUALDAD <- NA
+dat01$DESIGUALDAD[dat01$FL_9_DO_Control==1]                  <- 0 #control cigarros
+dat01$DESIGUALDAD[dat01$FL_9_DO_Tratamiento_desigualdad==1]  <- 1 #Desigualdad
+```
+
+
+## Get ahead:
+
+- get_ah_estr = Haber accedido a una educación de calidad ("ecalid")
+- get_ah_1    = Provenir de una familia rica o con muchos recursos ("wfami ")
+- get_ah_2    = Tener padres con altos niveles de educación ("edpad ")
+- get_ah_3    = Que usted tenga un buen nivel de educación ("selfed")
+- get_ah_4    = Tener ambición ("ambi")
+- get_ah_5    = El trabajo duro ("hwork")
+- get_ah_indv = Haber alcanzado un buen nivel de educación ("edalca")
+
+```{r}
+table(dat01$get_ah_estr,exclude=NULL)
+table(dat01$get_ah_1,exclude=NULL)
+table(dat01$get_ah_2,exclude=NULL)
+table(dat01$get_ah_3,exclude=NULL)
+table(dat01$get_ah_4,exclude=NULL)
+table(dat01$get_ah_5,exclude=NULL)
+table(dat01$get_ah_indv,exclude=NULL)
+
+dbgah <- dat01[,c("get_ah_estr","get_ah_1","get_ah_2","get_ah_3","get_ah_4","get_ah_5","get_ah_indv")]
+names(dbgah) <- c("ecalid","wfami","edpad","selfed","ambi","hwork","edalca")
+stargazer(dbgah,type = "text")
+```
+
+```{r}
+round(rbind("ecalid"=prop.table(table(dbgah$ecalid)),
+            "wfami "=prop.table(table(dbgah$wfami )),
+            "edpad "=prop.table(table(dbgah$edpad )),
+            "selfed"=prop.table(table(dbgah$selfed)),
+            "ambi  "=prop.table(table(dbgah$ambi  )),
+            "hwork "=prop.table(table(dbgah$hwork )),
+            "edalca"=prop.table(table(dbgah$edalca))),2)
+
+round(rbind("ecalid"=prop.table(table(dbgah$ecalid)),
+            "selfed"=prop.table(table(dbgah$selfed)),
+            "edalca"=prop.table(table(dbgah$edalca))),2)
+
+
+```
+
+### Correlaciones Get Ahead
+
+```{r}
+round(cor(dbgah,use = "complete.obs"),digits = 2)
+```
+
+# Igualitarismo
+
+
+- egal_1 = Uno de los mayores problemas que tiene Chile es que no le damos a todas las personas las mismas oportunidades ("oportunidad")
+- egal_2 = Si en Chile hubiera más igualdad, tendríamos muchos menos problemas ("problemas")
+- egal_5 = Una mayor igualdad de ingresos le permitiría a la mayoría de las personas vivir mejor ("vivmejor")
+- egal_6 = Los ingresos deberían hacerse más iguales porque las necesidades de cada familia, como salud y educación, son las mismas ("necesidad")
+
+```{r}
+dbegal <- dat01[,c("egal_1","egal_2","egal_5","egal_6")]
+names(dbegal) <- c("oportunidad","problemas","vivmejor","necesidad")
+stargazer(dbegal,type = "text")
+```
+
+```{r}
+round(rbind("oportunidad"=prop.table(table(dbegal$oportunidad)),
+            "problemas  "=prop.table(table(dbegal$problemas)),
+            "vivmejor   "=prop.table(table(dbegal$vivmejor )),
+            "necesidad  "=prop.table(table(dbegal$necesidad))),2)
+```
+
+### Correlaciones Igualitarismo
+
+```{r}
+round(cor(dbegal,use = "complete.obs"),digits = 2)
+```
+
+## Get ahead ~ Tratamientos
+
+```{r}
+dat01b <- dplyr::select(dat01b,Mfamilia,Meducacion,Mtrabajo,tratamiento)
+dat01b <- na.omit(dat01b)
+
+
+# Medias
+##############
+# Origen familiar
+round(rbind("origenC"=mean(dat01$get_ah_1[dat01$TRATAMIENTO==0]),
+            "origenP"=mean(dat01$get_ah_1[dat01$TRATAMIENTO==1]),
+            "origenD"=mean(dat01$get_ah_1[dat01$TRATAMIENTO==2])),2)
+
+# Educacion
+round(rbind("origenC"=mean(pilot0819c$Meducacion[pilot0819c$tratamiento==0]),
+            "origenP"=mean(pilot0819c$Meducacion[pilot0819c$tratamiento==1]),
+            "origenD"=mean(pilot0819c$Meducacion[pilot0819c$tratamiento==2])),2)
+
+# Trabajo duro
+round(rbind("origenC"=mean(pilot0819c$Mtrabajo[pilot0819c$tratamiento==0]),
+            "origenP"=mean(pilot0819c$Mtrabajo[pilot0819c$tratamiento==1]),
+            "origenD"=mean(pilot0819c$Mtrabajo[pilot0819c$tratamiento==2])),2)
+
+# ATEs
+################
+modelos <- list(lm(get_ah_estr~factor(TRATAMIENTO),data= dat01), # educacion calidad
+                lm(get_ah_1   ~factor(TRATAMIENTO),data= dat01), # familia rica
+                lm(get_ah_2   ~factor(TRATAMIENTO),data= dat01), # educ padres
+                lm(get_ah_3   ~factor(TRATAMIENTO),data= dat01), # educ usted
+                lm(get_ah_4   ~factor(TRATAMIENTO),data= dat01), # ambicion
+                lm(get_ah_5   ~factor(TRATAMIENTO),data= dat01), # trabajo duro
+                lm(get_ah_indv~factor(TRATAMIENTO),data= dat01)) # alcanzar buen nivel de educacion
+screenreg(l = modelos,stars = c(0.001,0.01,0.05,0.1),doctype = F,custom.coef.names = c("Inter","Pobreza","Desigualdad")) 
+
+modelos <- list(
+                lm(get_ah_1   ~TRATAMIENTO,data= dat01), # familia rica
+                lm(get_ah_3   ~TRATAMIENTO,data= dat01), # educ usted
+                lm(get_ah_5   ~TRATAMIENTO,data= dat01)) # trabajo duro
+screenreg(l = modelos,stars = c(0.001,0.01,0.05,0.1),doctype = F,custom.coef.names = c("Inter","Pobreza","Desigualdad")) 
+
+modelos <- list(lm(get_ah_estr~TRATAMIENTO,data= dat01), # educacion calidad
+                lm(get_ah_indv~TRATAMIENTO,data= dat01)) # alcanzar buen nivel de educacion
+screenreg(l = modelos,stars = c(0.001,0.01,0.05,0.1),doctype = F,custom.coef.names = c("Inter","Pobreza","Desigualdad")) 
+
+```
+
+```{r}
+# sjPlot::view_df(x = dat01,file = "codebook-e2.xls",show.prc = TRUE)
+```
+
+```{r}
+loi <- dat01 %>% filter(Intro==1,Finished==1) %>% select(Intro,Duration__in_seconds_,ticket)
+
+mean(loi$Duration__in_seconds_)/60
+median(loi$Duration__in_seconds_)/60
+xlsx::write.xlsx(x = loi,file = "loi.xlsx")
+```
+
+
+
+
+
+

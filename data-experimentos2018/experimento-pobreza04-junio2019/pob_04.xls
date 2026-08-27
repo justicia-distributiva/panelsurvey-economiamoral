@@ -1,0 +1,1201 @@
+<table style="border-collapse:collapse; border:none;">
+<caption>Data frame: pob_03</caption>
+<tr>
+<th style="border-bottom:double; font-style:italic; font-weight:normal; padding:0.2cm; text-align:left; vertical-align:top;">ID</th><th style="border-bottom:double; font-style:italic; font-weight:normal; padding:0.2cm; text-align:left; vertical-align:top;">Name</th><th style="border-bottom:double; font-style:italic; font-weight:normal; padding:0.2cm; text-align:left; vertical-align:top;">Label</th><th style="border-bottom:double; font-style:italic; font-weight:normal; padding:0.2cm; text-align:left; vertical-align:top;">Values</th><th style="border-bottom:double; font-style:italic; font-weight:normal; padding:0.2cm; text-align:left; vertical-align:top;">Value Labels</th><th style="border-bottom:double; font-style:italic; font-weight:normal; padding:0.2cm; text-align:left; vertical-align:top;">%</th>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">StartDate</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Start Date</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">EndDate</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">End Date</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Status</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Response Type</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">0<br>1<br>2<br>4<br>8<br>9<br>12<br>16<br>17<br>32<br>40<br>48</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">IP Address<br>Survey Preview<br>Survey Test<br>Imported<br>Spam<br>Survey Preview Spam<br>Imported Spam<br>Offline<br>Offline Survey Preview<br>EX<br>EX Spam<br>EX Offline</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">99.38<br>0.62</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">IPAddress</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">IP Address</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"><span style="omit" title ="'show.string.values = TRUE' to show values.">&lt;output omitted&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.27<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Progress</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Progress</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 2-100</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">6</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Duration__in_seconds_</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Duration (in seconds)</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 7-325970</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">7</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Finished</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Finished</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">0<br>1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">False<br>True</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">3.37<br>96.63</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">8</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">RecordedDate</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Recorded Date</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">9</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">ResponseId</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Response ID</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"><span style="omit" title ="'show.string.values = TRUE' to show values.">&lt;output omitted&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">10</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">RecipientLastName</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Recipient Last Name</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">100.00</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">11</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">RecipientFirstName</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Recipient First Name</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">100.00</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">12</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">RecipientEmail</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Recipient Email</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">100.00</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">13</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">ExternalReference</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">External Data Reference</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">100.00</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">14</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">LocationLatitude</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Location Latitude</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"><span style="omit" title ="'show.string.values = TRUE' to show values.">&lt;output omitted&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">3.37<br>0.09<br>0.35<br>0.09<br>0.18<br>0.18<br>0.27<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.18<br>0.89<br>89.53<br>0.35<br>0.18<br>0.18<br>0.18<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.53<br>0.09<br>0.09<br>0.09<br>0.44<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">15</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">LocationLongitude</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Location Longitude</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"><span style="omit" title ="'show.string.values = TRUE' to show values.">&lt;output omitted&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">3.37<br>0.35<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.18<br>0.44<br>0.27<br>0.09<br>0.89<br>89.53<br>0.18<br>0.09<br>0.09<br>0.09<br>0.18<br>0.18<br>0.18<br>0.18<br>0.09<br>0.09<br>0.18<br>0.27<br>0.09<br>0.18<br>0.09<br>0.09<br>0.53<br>0.09<br>0.09<br>0.44<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">16</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">DistributionChannel</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Distribution Channel</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"><span style="omit" title ="'show.string.values = TRUE' to show values.">&lt;output omitted&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">100.00</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">17</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">UserLanguage</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">User Language</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"><span style="omit" title ="'show.string.values = TRUE' to show values.">&lt;output omitted&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">100.00</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">18</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Intro</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">PROYECTO ECONOMÍA MORAL DE LA MERITOCRACIA Y<br>PREFERENCIAS REDISTRIBUTIVAS
+ 
+
+INFORMACIÓN
+
+ 
+<br>Usted ha sido invitado(a) a participar en la<br>investigación “Economía moral de la meritocracia y<br>preferencias redistributivas.” Su objetivo es<br>analizar la relación entre creencias en la<br>meritocracia y preferencias sobre la<br>redistribución de recursos en Chile. Usted ha sido<br>seleccionado(a) porque buscamos representar a la<br>población chilena en su diversidad.
+
+
+
+El<br>investigador responsable de este estudio es el<br>Prof. Juan Carlos Castillo de la Facultad de<br>Ciencias Sociales de la Universidad de Chile. La<br>investigación es patrocinada por el Fondo Nacional<br>de Investigación Científica y Tecnológica -<br>FONDECYT. Para decidir participar en esta<br>investigación, es importante que considere la<br>siguiente:
+ 
+
+Participación: Su participación<br>consistirá que se le pedirá que responda un<br>cuestionario elaborado por el equipo de<br>investigación para conocer su opinión y<br>experiencia sobre diversos temas relacionados con<br>e</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">ACEPTO participar en este estudio<br>NO ACEPTO participar en este estudio</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">93.70<br>6.30</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">19</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">sexo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿Cuál es su sexo?</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Hombre<br>Mujer</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">47.44<br>52.56</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">20</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">educat</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Sin tomar en cuenta las repeticiones de curso, <br>¿cuál es su nivel educacional?</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Sin estudios<br>Básica incompleta<br>Básica completa<br>Media incompleta<br>Media completa<br>Técnica incompleta<br>Técnica completa - Universitaria incompleta<br>Universitaria completa<br>Postgrado</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">0.09<br>0.19<br>0.09<br>3.04<br>24.38<br>10.72<br>28.65<br>22.77<br>10.06</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">21</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">edad_anios</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿Cuál es su edad?</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">18 - 24<br>25 - 34<br>33 - 44<br>45 - 54<br>55 o más</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">17.73<br>14.59<br>21.54<br>13.92<br>32.22</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">22</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">edad_fecha_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿Cuál es su fecha de nacimiento? - Día (ej: 04)</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"><br>5<br>13<br>29<br>19<br>16<br>07<br>05<br>10<br>26<br>22<br>03<br>02<br>14<br>06<br><span style="omit">&lt;... truncated&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">6.83<br>2.66<br>3.37<br>2.84<br>3.99<br>3.46<br>2.57<br>3.02<br>1.77<br>2.75<br>0.09<br>3.11<br>2.75<br>2.93<br>2.93<br>3.19<br>2.84<br>3.37<br>3.46<br>2.84<br>3.46<br>0.09<br>0.09<br>2.75<br>1.95<br>2.57<br>3.02<br>2.31<br>3.28<br>3.28<br>2.93<br>2.93<br>2.93<br>0.53<br>3.19<br>1.60<br>0.62<br>0.53<br>0.27<br>0.18<br>0.35<br>0.27<br>0.09</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">23</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">edad_fecha_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿Cuál es su fecha de nacimiento? - Mes (ej: 07)</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"><br>12<br>04<br>08<br>09<br>02<br>11<br>06<br>05<br>01<br>10<br>03<br>07<br>3<br>4<br><span style="omit">&lt;... truncated&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">6.92<br>8.07<br>5.86<br>8.16<br>8.34<br>5.06<br>0.09<br>6.03<br>7.19<br>7.54<br>8.07<br>0.09<br>8.52<br>0.09<br>7.99<br>7.28<br>0.09<br>0.27<br>0.18<br>0.27<br>0.09<br>0.27<br>0.09<br>0.18<br>0.09<br>0.18<br>0.27<br>0.09<br>0.18<br>0.35<br>0.09<br>0.18<br>0.18<br>0.09<br>0.35<br>0.09<br>0.09<br>0.09<br>0.27<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">24</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">edad_fecha_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿Cuál es su fecha de nacimiento? - Año (ej: 1985)</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"><br>1981<br>2001<br>1994<br>1997<br>1989<br>1995<br>1970<br>1998<br>1982<br>1954<br>1971<br>1985<br>1996<br>1950<br><span style="omit">&lt;... truncated&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">7.19<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.44<br>0.44<br>0.35<br>0.53<br>0.80<br>0.71<br>0.80<br>2.22<br>0.80<br>0.98<br>1.86<br>1.95<br>2.04<br>1.33<br>0.89<br>1.24<br>2.31<br>1.77<br>2.04<br>2.40<br>2.31<br>1.42<br>1.51<br>0.89<br>0.89<br>1.06<br>1.42<br>0.89<br>1.06<br>1.95<br>2.31<br>1.60<br>1.77<br>2.31<br>1.24<br>1.15<br>2.04<br>2.13<br>2.31<br>2.13<br>1.77<br>1.51<br>0.98<br>1.69<br>1.60<br>1.24<br>1.77<br>1.24<br>1.60<br>1.42<br>1.69<br>2.93<br>4.35<br>3.02<br>2.57<br>1.42<br>1.86<br>0.62<br>0.27<br>0.18<br>0.09<br>0.09</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">25</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">percep1a</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">La medición de la pobreza en Chile se relaciona<br>con los ingresos del hogar. Para saber quién es<br>pobre y quién no, se define un nivel mínimo de<br>ingresos que se llama “línea de la pobreza”, y si<br>el hogar está bajo ese nivel entonces se califica<br>como pobre.
+
+
+
+
+La línea de la pobreza en febrero<br>del 2019 fue de 429.259 mil pesos. Es decir, un<br>hogar de 4 miembros con un ingreso menor a esta<br>cantidad es clasificado como pobre.
+
+ 
+
+Pensando<br>en esta línea de pobreza, ¿Usted cree que<br>actualmente en Chile la cantidad de personas<br>pobres es mayor, igual o menor que hace 20 años<br>atrás?</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Mayor<br>Igual<br>Menor</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">45.35<br>20.35<br>34.30</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">26</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">percep1b</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿Usted
+cree que actualmente en Chile la cantidad<br>de personas pobres es mayor, igual o
+menor que<br>hace 20 años atrás?</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Mayor<br>Igual<br>Menor</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">34.84<br>18.41<br>46.74</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">27</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">pref1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">pref1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1.  Debería haber mayor igualdad de ingresos<br>2.<br>3.<br>4.<br>5.<br>6.<br>7.<br>8.<br>9.<br>10. Debería haber mayor diferencia de ingreso como incentivo al esfuerzo individual</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">25.33<br>3.04<br>5.79<br>5.64<br>15.63<br>7.38<br>11.58<br>6.37<br>3.91<br>15.34</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">28</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_t1a_First_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Primer clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0.0-947.7</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">29</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_t1a_Last_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Último clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0.0-947.7</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">30</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_t1a_Page_Submit</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Envío de página</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1.2-949.9</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">31</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_t1a_Click_Count</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Recuento de clics</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0-29</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">32</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_t1b_First_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Primer clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0.0-75.3</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">33</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_t1b_Last_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Último clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0.0-113.0</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">34</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_t1b_Page_Submit</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Envío de página</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1.4-113.7</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">35</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_t1b_Click_Count</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Recuento de clics</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0-26</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">36</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_t1c_First_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Primer clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0.0-27.7</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">37</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_t1c_Last_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Último clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0.0-131.8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">38</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_t1c_Page_Submit</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Envío de página</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1.0-133.2</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">39</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_t1c_Click_Count</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Recuento de clics</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0-19</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">40</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_t1d_First_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Primer clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0.0-40.7</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">41</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_t1d_Last_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Último clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0.0-48.8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">42</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_t1d_Page_Submit</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Envío de página</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1.2-198.8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">43</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_t1d_Click_Count</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Recuento de clics</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0-10</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">44</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">mani_poverty</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Entre el año 1990 y el año 2015, el porcentaje de<br>pobres en Chile</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">2<br>3<br>4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Ha aumentado<br>No ha cambiado<br>Ha disminuido</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">7.02<br>10.53<br>82.46</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">45</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_ctrla_First_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Primer clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0.0-1274.5</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">46</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_ctrla_Last_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Último clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0.0-1274.5</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">47</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_ctrla_Page_Submit</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Envío de página</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1.8-1288.2</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">48</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_ctrla_Click_Count</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Recuento de clics</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0-14</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">49</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_ctrlb_First_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Primer clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0.0-41.8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">50</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_ctrlb_Last_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Último clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0.0-41.8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">51</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_ctrlb_Page_Submit</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Envío de página</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1.8-264.7</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">52</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_ctrlb_Click_Count</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Recuento de clics</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0-7</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">53</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_ctrlc_First_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Primer clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0.0-27.7</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">54</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_ctrlc_Last_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Último clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0.0-30.4</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">55</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_ctrlc_Page_Submit</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Envío de página</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0.1-35.5</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">56</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_ctrlc_Click_Count</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Recuento de clics</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0-9</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">57</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_ctrld_First_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Primer clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0.0-23.1</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">58</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_ctrld_Last_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Último clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0.0-23.1</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">59</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_ctrld_Page_Submit</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Envío de página</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0.8-35.5</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">60</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_ctrld_Click_Count</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Recuento de clics</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0-7</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">61</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">mani_placebo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Entre el año 2003 y el año 2017, el consumo de<br>cigarrillo en Chile</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Ha aumentado<br>No ha disminuido<br>Ha disminuido</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">6.61<br>9.69<br>83.70</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">62</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_t2a_First_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Primer clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0.0-86.0</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">63</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_t2a_Last_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Último clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0.0-94.0</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">64</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_t2a_Page_Submit</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Envío de página</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0.0-519.2</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">65</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_t2a_Click_Count</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Recuento de clics</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0-12</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">66</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_t2b_First_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Primer clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 0.0-4270.7</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">67</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_t2b_Last_Click</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Último clic</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0.0-4270.7</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">68</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">time_t2b_Page_Submit</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Timing - Envío de página</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 2.1-4286.7</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">69</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">time_t2b_Click_Count</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Timing - Recuento de clics</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 0-72</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">70</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">mani_desigualdad</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">En comparación con los países de la OCDE, la<br>desigualdad de ingresos en Chile</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Es de las más bajas.<br>Es parecida al resto de los países.<br>Es de las más altas.</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">7.96<br>5.31<br>86.73</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">71</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">get_ah_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Para surgir en la vida,  ¿cuán importante cree<br>usted que es? - Provenir de una familia rica o con<br>muchos recursos</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">No Es importante<br>No muy importante<br>Bastante importante<br>Muy importante<br>Esencial</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">24.96<br>33.09<br>22.45<br>11.82<br>7.68</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">72</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">get_ah_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Para surgir en la vida,  ¿cuán importante cree<br>usted que es? - Tener padres con altos niveles de<br>educación</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">No Es importante<br>No muy importante<br>Bastante importante<br>Muy importante<br>Esencial</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">9.31<br>27.03<br>31.91<br>21.42<br>10.34</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">73</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">get_ah_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Para surgir en la vida,  ¿cuán importante cree<br>usted que es? - Que usted tenga un buen nivel de<br>educación</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">No Es importante<br>No muy importante<br>Bastante importante<br>Muy importante<br>Esencial</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">0.15<br>3.84<br>19.79<br>37.52<br>38.70</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">74</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">get_ah_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Para surgir en la vida,  ¿cuán importante cree<br>usted que es? - Tener ambición</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">No Es importante<br>No muy importante<br>Bastante importante<br>Muy importante<br>Esencial</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1.48<br>9.75<br>34.12<br>33.68<br>20.97</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">75</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">get_ah_5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Para surgir en la vida,  ¿cuán importante cree<br>usted que es? - El trabajo duro</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">No Es importante<br>No muy importante<br>Bastante importante<br>Muy importante<br>Esencial</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1.77<br>8.42<br>26.59<br>34.86<br>28.36</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">76</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">get_ah_DO_get_ah_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Para surgir en la vida,  ¿cuán importante cree<br>usted que es? - Display Order get_ah_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-5</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">77</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">get_ah_DO_get_ah_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Para surgir en la vida,  ¿cuán importante cree<br>usted que es? - Display Order get_ah_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-5</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">78</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">get_ah_DO_get_ah_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Para surgir en la vida,  ¿cuán importante cree<br>usted que es? - Display Order get_ah_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-5</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">79</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">get_ah_DO_get_ah_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Para surgir en la vida,  ¿cuán importante cree<br>usted que es? - Display Order get_ah_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-5</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">80</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">get_ah_DO_get_ah_5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Para surgir en la vida,  ¿cuán importante cree<br>usted que es? - Display Order get_ah_5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-5</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">81</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">pref_redis_taxB_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">pref_redis_taxB - Mejorar la calidad de la<br>educación pública en Chile</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5<br>9<br>10</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Muy dispuesto (1)<br>(2)<br>(4)<br>(5)<br>(6)<br>(3)<br>Nada dispuesto (7)</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">42.43<br>13.35<br>12.17<br>8.46<br>3.56<br>10.39<br>9.64</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">82</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">pref_redis_taxB_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">pref_redis_taxB - Mejorar el nivel de la atención<br>en salud para las personas en Chile</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5<br>9<br>10</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Muy dispuesto (1)<br>(2)<br>(4)<br>(5)<br>(6)<br>(3)<br>Nada dispuesto (7)</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">46.14<br>12.91<br>11.13<br>8.31<br>3.26<br>10.39<br>7.86</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">83</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">pref_redis_taxB_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">pref_redis_taxB - Mejorar el monto de las<br>pensiones en Chile</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5<br>9<br>10</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Muy dispuesto (1)<br>(2)<br>(4)<br>(5)<br>(6)<br>(3)<br>Nada dispuesto (7)</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">41.99<br>12.17<br>9.79<br>8.01<br>4.75<br>12.31<br>10.98</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">84</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">pref_redis_taxB_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">pref_redis_taxB - Reducir las diferencias de<br>ingreso entre ricos y pobres en Chile</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5<br>9<br>10</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Muy dispuesto (1)<br>(2)<br>(4)<br>(5)<br>(6)<br>(3)<br>Nada dispuesto (7)</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">32.05<br>9.50<br>14.54<br>9.79<br>4.75<br>15.28<br>14.09</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">85</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">pref_redis_taxB_DO_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">pref_redis_taxB - Display Order Mejorar la calidad<br>de la educación pública en Chile</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-4</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">86</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">pref_redis_taxB_DO_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">pref_redis_taxB - Display Order Mejorar el nivel<br>de la atención en salud para las personas en Chile</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-4</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">87</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">pref_redis_taxB_DO_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">pref_redis_taxB - Display Order Mejorar el monto<br>de las pensiones en Chile</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-4</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">88</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">pref_redis_taxB_DO_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">pref_redis_taxB - Display Order Reducir las<br>diferencias de ingreso entre ricos y pobres en<br>Chile</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-4</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">89</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">get_ahB_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Además de los ámbitos mencionados anteriormente,<br>para surgir en la vida, ¿cuán importante cree<br>usted que es? - Conocer a las personas adecuadas</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Esencial<br>Muy importante<br>Bastante importante<br>No muy importante<br>No es importante</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">15.19<br>26.77<br>35.79<br>13.23<br>9.02</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">90</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">get_ahB_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Además de los ámbitos mencionados anteriormente,<br>para surgir en la vida, ¿cuán importante cree<br>usted que es? - Tener contactos políticos</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Esencial<br>Muy importante<br>Bastante importante<br>No muy importante<br>No es importante</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">7.81<br>14.11<br>19.97<br>25.23<br>32.88</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">91</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">get_ahB_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Además de los ámbitos mencionados anteriormente,<br>para surgir en la vida, ¿cuán importante cree<br>usted que es? - Pagar coimas</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Esencial<br>Muy importante<br>Bastante importante<br>No muy importante<br>No es importante</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">3.04<br>4.56<br>12.01<br>17.02<br>63.37</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">92</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">get_ahB_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Además de los ámbitos mencionados anteriormente,<br>para surgir en la vida, ¿cuán importante cree<br>usted que es? - La raza u origen étnico de las<br>personas</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Esencial<br>Muy importante<br>Bastante importante<br>No muy importante<br>No es importante</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">3.60<br>8.56<br>14.56<br>24.92<br>48.35</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">93</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">get_ahB_5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Además de los ámbitos mencionados anteriormente,<br>para surgir en la vida, ¿cuán importante cree<br>usted que es? - La religión que tengan las<br>personas</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Esencial<br>Muy importante<br>Bastante importante<br>No muy importante<br>No es importante</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">2.27<br>4.24<br>6.35<br>26.63<br>60.51</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">94</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">get_ahB_6</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Además de los ámbitos mencionados anteriormente,<br>para surgir en la vida, ¿cuán importante cree<br>usted que es? - El sexo de las personas, ser<br>hombre o mujer</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Esencial<br>Muy importante<br>Bastante importante<br>No muy importante<br>No es importante</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">3.01<br>8.42<br>16.09<br>22.86<br>49.62</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">95</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">get_ahB_DO_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Además de los ámbitos mencionados anteriormente,<br>para surgir en la vida, ¿cuán importante cree<br>usted que es? - Display Order Conocer a las<br>personas adecuadas</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-6</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">96</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">get_ahB_DO_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Además de los ámbitos mencionados anteriormente,<br>para surgir en la vida, ¿cuán importante cree<br>usted que es? - Display Order Tener contactos<br>políticos</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-6</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">97</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">get_ahB_DO_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Además de los ámbitos mencionados anteriormente,<br>para surgir en la vida, ¿cuán importante cree<br>usted que es? - Display Order Pagar coimas</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-6</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">98</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">get_ahB_DO_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Además de los ámbitos mencionados anteriormente,<br>para surgir en la vida, ¿cuán importante cree<br>usted que es? - Display Order La raza u origen<br>étnico de las personas</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-6</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">99</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">get_ahB_DO_5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Además de los ámbitos mencionados anteriormente,<br>para surgir en la vida, ¿cuán importante cree<br>usted que es? - Display Order La religión que<br>tengan las personas</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-6</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">100</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">get_ahB_DO_6</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Además de los ámbitos mencionados anteriormente,<br>para surgir en la vida, ¿cuán importante cree<br>usted que es? - Display Order El sexo de las<br>personas, ser hombre o mujer</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-6</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">101</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">merit_perc_pref_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - En Chile, quienes más se esfuerzan<br>logran obtener mayores recompensas.</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Totalmente en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Totalmente de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">14.07<br>26.80<br>24.55<br>20.51<br>14.07</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">102</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">merit_perc_pref_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - En Chile, quienes tienen más<br>talento logran obtener mayores recompensas.</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Totalmente en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Totalmente de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">11.98<br>26.20<br>30.69<br>23.50<br>7.63</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">103</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">merit_perc_pref_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - En Chile, las personas con padres<br>ricos logran salir adelante.</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Totalmente en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Totalmente de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">8.23<br>6.29<br>15.57<br>32.49<br>37.43</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">104</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">merit_perc_pref_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - En Chile, los que tienen buenos<br>contactos logran salir adelante.</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Totalmente en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Totalmente de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">8.83<br>5.24<br>14.22<br>38.02<br>33.68</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">105</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">merit_perc_pref_5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - Quienes más se esfuerzan deberían<br>obtener mayores recompensas que quienes se<br>esfuerzan menos</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Totalmente en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Totalmente de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">5.09<br>4.04<br>11.08<br>34.13<br>45.66</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">106</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">merit_perc_pref_13</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - Quienes poseen más talento deberían<br>obtener mayores recompensas que quienes tienen<br>menos talento</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Totalmente en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Totalmente de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">7.93<br>15.27<br>28.74<br>28.44<br>19.61</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">107</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">merit_perc_pref_14</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - Está bien que quienes tienen padres<br>ricos salgan adelante</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Totalmente en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Totalmente de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">27.84<br>20.81<br>30.84<br>15.12<br>5.39</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">108</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">merit_perc_pref_15</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - Está bien que quienes tienen buenos<br>contactos salgan adelante</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Totalmente en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Totalmente de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">29.49<br>32.34<br>24.25<br>10.18<br>3.74</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">109</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">merit_perc_pref_DO_merit_perc_pref_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - Display Order merit_perc_pref_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">110</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">merit_perc_pref_DO_merit_perc_pref_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - Display Order merit_perc_pref_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">111</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">merit_perc_pref_DO_merit_perc_pref_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - Display Order merit_perc_pref_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">112</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">merit_perc_pref_DO_merit_perc_pref_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - Display Order merit_perc_pref_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">113</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">merit_perc_pref_DO_merit_perc_pref_5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - Display Order merit_perc_pref_5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">114</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">merit_perc_pref_DO_merit_perc_pref_13</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - Display Order merit_perc_pref_13</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">115</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">merit_perc_pref_DO_merit_perc_pref_14</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - Display Order merit_perc_pref_14</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">116</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">merit_perc_pref_DO_merit_perc_pref_15</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En qué medida se encuentra usted de acuerdo o en<br>desacuerdo con cada una de las siguientes<br>afirmaciones - Display Order merit_perc_pref_15</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">117</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">merit_perc_scale</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Para salir adelante en Chile actualmente. ¿Qué es<br>más importante, el talento o el esfuerzo de las<br>personas? Marque en la siguiente escala entre 1 y<br>7 según sea su preferencia.</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5<br>6<br>7</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">(1)  El talento<br>(2)<br>(3)<br>(4) Ambos por igual<br>(5)<br>(6)<br>(7) El esfuerzo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">5.30<br>1.97<br>3.63<br>60.06<br>7.72<br>5.90<br>15.43</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">118</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">merit_pref_scale_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Y, ¿Qué debería ser más importante?</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5<br>6<br>7</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">(1)  El talento<br>(2)<br>(3)<br>(4)  Ambos por igual<br>(5)<br>(6)<br>(7)  El esfuerzo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">3.75<br>1.07<br>2.68<br>58.04<br>7.68<br>5.36<br>21.43</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">119</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">merit_own_scale_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Y en su caso personal, los logros y recompensas<br>que he obtenido en la vida se deben principalmente<br>a:</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5<br>6<br>7</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">(1)  El talento<br>(2)<br>(3)<br>(4) Ambos por igual<br>(5)<br>(6)<br>(7)  El esfuerzo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">3.69<br>1.38<br>2.92<br>45.23<br>8.77<br>8.15<br>29.85</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">120</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">salary_perc_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Salario percibido - El gerente de una Gran Empresa<br>Nacional</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">50000<br>75000<br>125000<br>175000<br>225000<br>275000<br>325000<br>375000<br>425000<br>475000<br>550000<br>625000<br>675000<br>750000<br>850000<br><span style="omit">&lt;...&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Menos de  $50.000<br>Entre 	$50.000	 y 	$100.000<br>Entre 	$100.000	 y 	$150.000<br>Entre 	$150.000	 y 	$200.000<br>Entre 	$200.000	 y 	$250.000<br>Entre 	$250.000	 y 	$300.000<br>Entre 	$300.000	 y 	$350.000<br>Entre 	$350.000	 y 	$400.000<br>Entre 	$400.000	 y 	$450.000<br>Entre 	$450.000	 y	$500.000<br>Entre 	$500.000	 y	$600.000<br>Entre 	$600.000	 y	$650.000<br>Entre 	$650.000	y	$700.000<br>Entre 	$700.000	y	$800.000<br>Entre 	$800.000	y 	$900.000<br><span style="omit">&lt;... truncated&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">0.46<br>0.46<br>0.30<br>0.15<br>0.15<br>0.61<br>0.15<br>0.61<br>0.15<br>0.15<br>0.30<br>0.30<br>0.91<br>2.88<br>4.10<br>5.01<br>4.86<br>6.98<br>7.28<br>7.89<br>9.10<br>10.17<br>14.42<br>6.68<br>3.34<br>2.58<br>1.82<br>1.52<br>0.61<br>1.67<br>1.21<br>0.46<br>0.76<br>0.76<br>1.21</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">121</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">salary_perc_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Salario percibido - Un obrero no calificado de una<br>fábrica</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">50000<br>75000<br>125000<br>175000<br>225000<br>275000<br>325000<br>375000<br>425000<br>475000<br>550000<br>625000<br>675000<br>750000<br>850000<br><span style="omit">&lt;...&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Menos de  $50.000<br>Entre 	$50.000	 y 	$100.000<br>Entre 	$100.000	 y 	$150.000<br>Entre 	$150.000	 y 	$200.000<br>Entre 	$200.000	 y 	$250.000<br>Entre 	$250.000	 y 	$300.000<br>Entre 	$300.000	 y 	$350.000<br>Entre 	$350.000	 y 	$400.000<br>Entre 	$400.000	 y 	$450.000<br>Entre 	$450.000	 y	$500.000<br>Entre 	$500.000	 y	$600.000<br>Entre 	$600.000	 y	$650.000<br>Entre 	$650.000	y	$700.000<br>Entre 	$700.000	y	$800.000<br>Entre 	$800.000	y 	$900.000<br><span style="omit">&lt;... truncated&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">0.91<br>0.61<br>1.83<br>4.27<br>8.08<br>21.19<br>21.49<br>13.11<br>8.23<br>7.32<br>5.49<br>1.22<br>1.98<br>2.29<br>0.30<br>0.46<br>0.76<br>0.15<br>0.15<br>0.15</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">122</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">salary_just_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Salario justo - El gerente de una Gran Empresa<br>Nacional</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">50000<br>75000<br>125000<br>175000<br>225000<br>275000<br>325000<br>375000<br>425000<br>475000<br>550000<br>625000<br>675000<br>750000<br>850000<br><span style="omit">&lt;...&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Menos de  $50.000<br>Entre 	$50.000	 y 	$100.000<br>Entre 	$100.000	 y 	$150.000<br>Entre 	$150.000	 y 	$200.000<br>Entre 	$200.000	 y 	$250.000<br>Entre 	$250.000	 y 	$300.000<br>Entre 	$300.000	 y 	$350.000<br>Entre 	$350.000	 y 	$400.000<br>Entre 	$400.000	 y 	$450.000<br>Entre 	$450.000	 y	$500.000<br>Entre 	$500.000	 y	$600.000<br>Entre 	$600.000	 y	$650.000<br>Entre 	$650.000	y	$700.000<br>Entre 	$700.000	y	$800.000<br>Entre 	$800.000	y 	$900.000<br><span style="omit">&lt;... truncated&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">0.30<br>0.15<br>0.61<br>0.15<br>0.30<br>0.76<br>0.91<br>1.21<br>0.76<br>1.52<br>1.06<br>4.70<br>7.74<br>9.41<br>9.41<br>10.02<br>10.02<br>10.32<br>7.74<br>5.31<br>7.13<br>4.10<br>2.73<br>1.06<br>0.61<br>0.46<br>0.15<br>0.15<br>0.46<br>0.30<br>0.30<br>0.15</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">123</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">salary_just_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Salario justo - Un obrero no calificado de una<br>fábrica</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">50000<br>75000<br>125000<br>175000<br>225000<br>275000<br>325000<br>375000<br>425000<br>475000<br>550000<br>625000<br>675000<br>750000<br>850000<br><span style="omit">&lt;...&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Menos de  $50.000<br>Entre 	$50.000	 y 	$100.000<br>Entre 	$100.000	 y 	$150.000<br>Entre 	$150.000	 y 	$200.000<br>Entre 	$200.000	 y 	$250.000<br>Entre 	$250.000	 y 	$300.000<br>Entre 	$300.000	 y 	$350.000<br>Entre 	$350.000	 y 	$400.000<br>Entre 	$400.000	 y 	$450.000<br>Entre 	$450.000	 y	$500.000<br>Entre 	$500.000	 y	$600.000<br>Entre 	$600.000	 y	$650.000<br>Entre 	$650.000	y	$700.000<br>Entre 	$700.000	y	$800.000<br>Entre 	$800.000	y 	$900.000<br><span style="omit">&lt;... truncated&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">0.15<br>0.15<br>0.91<br>1.98<br>2.74<br>3.95<br>6.38<br>14.13<br>16.72<br>9.27<br>9.12<br>11.55<br>6.08<br>7.90<br>5.47<br>1.22<br>0.76<br>0.15<br>0.15<br>0.30<br>0.15<br>0.30<br>0.15<br>0.30</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">124</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">ess01</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Estatus subjetivo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">(0) Nivel más bajo<br>(1)<br>(2)<br>(3)<br>(4)<br>(5)<br>(6)<br>(7)<br>(8)<br>(9)<br>(10) Nivel más Alto</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1.52<br>1.67<br>3.79<br>12.59<br>17.45<br>28.53<br>16.08<br>13.35<br>2.88<br>1.37<br>0.76</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">125</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">ess02</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Estatus subjetivo familia origen</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">(0) Nivel más bajo<br>(1)<br>(2)<br>(3)<br>(4)<br>(5)<br>(6)<br>(7)<br>(8)<br>(9)<br>(10) Nivel más Alto</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">3.34<br>4.86<br>10.47<br>16.69<br>17.60<br>21.09<br>11.53<br>7.89<br>3.03<br>2.28<br>1.21</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">126</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">ess03</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Estatus subjetivo hijos</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">0<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">(0) Nivel más bajo<br>(1)<br>(2)<br>(3)<br>(4)<br>(5)<br>(6)<br>(7)<br>(8)<br>(9)<br>(10) Nivel más Alto</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1.21<br>1.37<br>1.21<br>4.10<br>8.95<br>20.94<br>18.82<br>22.31<br>13.35<br>4.86<br>2.88</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">127</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">egal_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Uno de los mayores problemas que<br>tiene Chile es que no le damos a todas las<br>personas las mismas oportunidades</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Muy en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Muy de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">3.66<br>4.57<br>9.30<br>35.82<br>46.65</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">128</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">egal_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Si en Chile hubiera más igualdad,<br>tendríamos muchos menos problemas</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Muy en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Muy de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1.98<br>5.02<br>16.74<br>43.68<br>32.57</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">129</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">egal_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Hemos ido demasiado lejos al<br>impulsar la igualdad en Chile</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Muy en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Muy de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">23.32<br>32.01<br>27.90<br>11.59<br>5.18</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">130</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">egal_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - En general, creo que las<br>diferencias económicas en Chile se pueden<br>justificar</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Muy en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Muy de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">26.37<br>35.67<br>23.63<br>11.28<br>3.05</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">131</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">egal_5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Una mayor igualdad de ingresos le<br>permitiría a la mayoría de las personas vivir<br>mejor</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Muy en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Muy de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1.37<br>3.66<br>10.23<br>41.53<br>43.21</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">132</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">egal_6</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Los ingresos deberían hacerse más<br>iguales porque las necesidades de cada familia,<br>como salud y educación, son las mismas</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Muy en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Muy de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">2.13<br>8.83<br>16.59<br>38.05<br>34.40</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">133</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">egal_7</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Chile estaría mejor si nos<br>preocupáramos menos de cuán iguales son las<br>personas</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Muy en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Muy de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">15.85<br>25.46<br>27.29<br>21.95<br>9.45</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">134</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">egal_8</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Los ingresos no se pueden igualar<br>porque las habilidades y los talentos de las<br>personas son diferentes</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Muy en desacuerdo<br>En desacuerdo<br>Ni de acuerdo ni en desacuerdo<br>De acuerdo<br>Muy de acuerdo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">8.83<br>20.40<br>32.57<br>29.68<br>8.52</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">135</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">egal_DO_egal_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Display Order egal_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">136</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">egal_DO_egal_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Display Order egal_2</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">137</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">egal_DO_egal_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Display Order egal_3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">138</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">egal_DO_egal_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Display Order egal_4</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">139</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">egal_DO_egal_5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Display Order egal_5</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">140</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">egal_DO_egal_6</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Display Order egal_6</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">141</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">egal_DO_egal_7</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Display Order egal_7</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">142</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">egal_DO_egal_8</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿En    qué    medida    se    encuentra    usted<br> de    acuerdo    o    en    desacuerdo    con <br>cada    una    de    las    siguientes <br>afirmaciones? - Display Order egal_8</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-8</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">143</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">pos_pol_1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Cambiando de tema, tradicionalmente en nuestro<br>país la gente define las posiciones políticas como<br>más cercanas a la izquierda, al centro o a la<br>derecha. Usando una escala de 0 a 10 donde 0 es<br>ser de “izquierda”, 5 es ser de “centro” y 10 es<br>ser de “derecha”: - ¿Dónde se ubicaría usted en<br>esta escala?</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">-99<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">No sabe<br>(0) Izquierda<br>(1)<br>(2)<br>(3)<br>(4)<br>(5) Centro<br>(6)<br>(7)<br>(8)<br>(9)<br>(10) Derecha</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">11.66<br>7.67<br>2.61<br>5.21<br>9.51<br>10.28<br>28.07<br>4.14<br>7.52<br>4.75<br>1.84<br>6.75</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">144</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">cpol01</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Partido que se opone a que el Estado tenga un rol<br>activo en la economía</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">-999<br>1<br>2<br>3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">No sabe<br>Unión Demócrata Independiente (UDI)<br>Partido Demócrata Cristiano (DC)<br>Partido Radical (PRSD)</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">36.50<br>34.66<br>12.42<br>16.41</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">145</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">cpol04</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿De cuál de los siguientes ministerios está a<br>cargo Felipe Larraín?</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">-999<br>1<br>2<br>3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">No sabe<br>Economía<br>Hacienda<br>Secretaría de la Presidencia</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">29.86<br>19.14<br>50.08<br>0.92</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">146</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">cpol05</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">¿Cuántos diputados hay en la Cámara Baja?</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">-999<br>1<br>2<br>3</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">No sabe<br>100 diputados<br>120 diputados<br>155 diputados</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">31.39<br>2.45<br>28.64<br>37.52</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">147</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">comuna</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿En qué comuna vive?</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">447<br>448<br>449<br>450<br>451<br>452<br>453<br>454<br>455<br>456<br>457<br>458<br>459<br>460<br>461<br><span style="omit">&lt;...&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Cerrillos<br>Cerro Navia<br>Conchalí<br>El Bosque<br>Estación Central<br>Huechuraba<br>Independencia<br>La Cisterna<br>La Florida<br>La Granja<br>La Pintana<br>La Reina<br>Las Condes<br>Lo Barnechea<br>Lo Espejo<br><span style="omit">&lt;... truncated&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">2.19<br>0.62<br>2.19<br>2.97<br>4.06<br>0.47<br>1.72<br>2.50<br>8.75<br>2.03<br>1.25<br>1.72<br>6.56<br>0.78<br>1.09<br>1.41<br>4.06<br>10.31<br>7.66<br>1.09<br>4.06<br>3.91<br>5.62<br>0.31<br>2.66<br>2.19<br>1.25<br>0.78<br>0.31<br>1.25<br>3.28<br>0.62<br>8.75<br>1.56</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">148</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">ingresos</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">De los siguientes tramos de ingresos mensuales que<br>se presentan, ¿podría Ud. indicarme en cuál de<br>ellos se encuentra su hogar, considerando todos<br>los ingresos líquidos por sueldos y salarios de<br>todas las personas que trabajan remuneradamente,<br>jubilaciones, pensiones, aportes de parientes o<br>amigos, arriendos y otros?</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">Menos de $35.000 mensuales líquidos<br>De $35.001 a $56.000 mensuales líquidos<br>De $56.001 a $78.000 mensuales líquidos<br>De $78.001 a $101.000 mensuales líquidos<br>De $101.001 a $134.000 mensuales líquidos<br>De $134.001 a $179.000 mensuales líquidos<br>De $179.001 a $224.000 mensuales líquidos<br>De $224.001 a $291.000 mensuales líquidos<br>De $291.001 a $358.000 mensuales líquidos<br>De $358.001 a $448.000 mensuales líquidos<br>De $448.001 a $1.000.000 mensuales líquidos<br>De $1.000.001 a $2.000.000 mensuales líquidos<br>De $2.000.001 a $3.000.000 mensuales líquidos<br>Más de $3.000.000 mensuales líquidos</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">0.77<br>0.46<br>0.46<br>0.46<br>0.31<br>0.31<br>1.69<br>2.76<br>12.14<br>38.40<br>27.04<br>9.37<br>5.84</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">149</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">estlab</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">¿Cuál de estas situaciones describe mejor su<br>actividad principal durante el último mes?</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">Trabaja de manera remunerada con jornada completa<br>Trabaja de manera remunerada a tiempo pbackground-color:#eeeeeeial o hace trabajos ocasionales<br>Estudia y trabaja<br>Sólo estudia<br>Jubilado o pensionado<br>Desempleado, buscando trabajo<br>Realiza tareas no remuneradas (quehaceres del hogar, cuidando niños y otras personas)<br>Está enfermo o tiene una discapacidad<br>No estudia, no trabaja y no busca trabajo</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">48.77<br>12.58<br>7.06<br>7.21<br>11.81<br>5.06<br>5.21<br>0.92<br>1.38</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">150</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">ticket</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">ticket</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"><span style="omit" title ="'show.string.values = TRUE' to show values.">&lt;output omitted&gt;</span></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">0.35<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.27<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.27<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.18<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09<br>0.09</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">151</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">edad_fecha_1___Topics</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">edad_fecha_1 - Topics</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">100.00</td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">152</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">FL_6_DO_Grupo1_percep1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">FL_6 - Block Randomizer - Display Order<br>Grupo1_percep1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-1</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">153</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">FL_6_DO_Grupo2_percep1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">FL_6 - Block Randomizer - Display Order<br>Grupo2_percep1</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-1</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">154</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">FL_9_DO_Tratamiento</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">FL_9 - Block Randomizer - Display Order<br>Tratamiento</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-1</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">155</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">FL_9_DO_Control</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;">FL_9 - Block Randomizer - Display Order Control</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;" colspan="2"><em>range: 1-1</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top;"></td>
+</tr>
+<tr>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">156</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">FL_9_DO_Tratamiento_desigualdad</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee">FL_9 - Block Randomizer - Display Order<br>Tratamiento-desigualdad</td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee" colspan="2"><em>range: 1-1</em></td>
+<td style="padding:0.2cm; text-align:left; vertical-align:top; background-color:#eeeeee"></td>
+</tr>
+
+</table>

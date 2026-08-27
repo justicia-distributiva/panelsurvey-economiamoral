@@ -1,0 +1,12 @@
+base
+dplyr
+knitr
+psych
+questionr
+kableExtra
+sjlabelled
+tibble
+sjPlot
+lavaan
+summarytools
+ggplot2

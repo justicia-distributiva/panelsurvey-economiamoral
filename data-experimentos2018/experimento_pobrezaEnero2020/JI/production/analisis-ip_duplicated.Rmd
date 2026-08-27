@@ -1,0 +1,101 @@
+---
+title: "Análisis Experimento Netquest"
+author: "Julio César Iturra Sanhueza"
+date: "05-08-2019"
+output:
+  html_document: 
+    code_folding: hide
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r message=FALSE, warning=FALSE}
+library(dplyr)
+library(knitr)
+library(psych)
+library(questionr)
+library(kableExtra)
+library(sjlabelled)
+library(tibble) #row_to_names
+rm(list=ls())
+```
+
+```{r setup, include=FALSE, echo=FALSE}
+
+opts_chunk$set(warning = FALSE,message = FALSE)
+```
+
+```{r}
+data <- read_spss(path = "input/data/original/Estudio_3_ola2.sav")
+```
+
+```{r}
+data$treat[data$FL_6_DO_Control==1] <- 1 
+data$treat[data$FL_6_DO_Tratamiento==1] <- 2 
+data$treat[data$FL_6_DO_Tratamiento_desigualdad==1] <- 3 
+data$treat <- factor(data$treat,levels = c(1,2,3),labels = c("control","pobreza","desiguald"))
+table(data$treat)
+```
+
+
+# Casos IP duplicada
+
+```{r}
+
+# Paso I:
+ip1 <- questionr::freq(data$IPAddress,total = TRUE) # Ver cuántos casos tienen IP >= 2
+ip1 <- ip1 %>% 
+  rownames_to_column()
+ip1 <- ip1 %>%
+  filter(n>=2) # Quedarme con los casos que tienen IP >=2 (IPs duplicadas)
+datip1 <- data %>% # Filtrar la base completa con los casos con IPs duplicadas 
+                   # y que además terminaron el survey y recibieron la asignación aleatoria
+  filter(IPAddress %in% ip1$rowname, 
+         Finished==1,
+         treat %in% c("control","pobreza","desiguald")) 
+
+datip1 <-   datip1 %>%  
+  select(ResponseId,IPAddress,Finished,sexo,edad,edcep,treat,everything()) %>% 
+  arrange(IPAddress,Finished)# Ordenar la base según IP y Finished para observar patrón 
+
+# Paso II:
+datip02 <- questionr::freq(x = datip1$IPAddress,total = TRUE) # Tabla de frecuencia para observar IPs duplicadas
+                                                              # que terminaron survey y recibieron asignación aleatoria
+datip02 <- datip02 %>% 
+  rownames_to_column() # Crear variable con IPs
+
+ip02 <- datip02 %>% # Seleccionar las IPs duplicadas, terminaron survey y recibieron asignación aleatoria para filtro final
+  filter(n>=2)
+
+datip03 <- datip1 %>% # Filtro de la base original según casos específico de IP duplicada
+  filter(IPAddress %in% ip02$rowname) %>% 
+  arrange(IPAddress)
+```
+
+
+* Son `r dim(datip03)[1]`  casos con IP duplicadas.
+* Aproximadamente 2/3 son casos distintos, no obstante existen casos sospechosos que poseen misma IP, sexo, edad y nivel educacional (ver Tabla abajo)
+
+```{r}
+datip04 <- datip03 %>% group_by(IPAddress,sexo,edad,edcep)
+
+datip04 <- datip03 %>% filter(IPAddress %in% c("45.239.210.31","201.219.236.115",
+                                               "190.44.207.170","186.156.204.110",
+                                               "186.156.203.20","181.75.69.249",
+                                               "181.73.82.47","181.73.117.36",
+                                               "181.42.19.48","181.203.90.226",
+                                               "181.161.48.233","179.4.211.205",
+                                               "168.196.203.142","168.196.201.200","167.250.54.58")) %>%
+  select(ResponseId,IPAddress,sexo,edad,edcep, StartDate, EndDate)
+kable(datip04,format = "html", caption = "Tabla: casos anómalos de IP duplicadas") %>%  kable_styling()
+
+```
+
+* Si observamos las variables Startdate y Endate, es posible identificar un patrón de inicio y término de un caso y otro. 
+
+

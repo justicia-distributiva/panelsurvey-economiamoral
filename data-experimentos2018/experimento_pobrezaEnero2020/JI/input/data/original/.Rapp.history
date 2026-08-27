@@ -1,0 +1,325 @@
+693.99*500
+697*500
+68-12
+(6.2 + 6.0 + 6.2)/3
+(5.7 + 5.8 + 5.5)/3
+(6.0 + 5.9 + 5.8)/3
+(5.4 + 6.1 + 5.8)/3
+(6.0 + 6.2 + 6.0)/3
+68-12
+5.9 - (0.2*7)
+5.8 - (0.2*6)
+699/12
+3+50+54+110+353+44+156+215+16
+139+210+196+170+287
+476+525
+60*0.28
+1+5+40+120+363+55+166+225+25
+3.3+49.5+53.5+110.2+352.9+43.7+156.1+214.6+16.1
+13.2 + 40.4
+6.4+24.7
+24.8 + 45.4
+48.9 + 23.7
+684*550
+(6.0+6.2+6.2)/3
+(6.1+6.0+6.1)/3
+0.20*6.4 + 0.70*6.7 + 0.10*7.0
+0.20*6.2 + 0.70*6.2 + 0.10*6.3
+0.20*6.2 + 0.70*6.2 + 0.10*6.5
+0.20*6.0 + 0.70*6.0 + 0.10*6.3
+0.10*3.0 + 0.10*6.1 + 0.70*6.1 + 0.10*6.0
+0.10*5.5 + 0.10*6.1 + 0.70*6.1 + 0.10*6.0
+11-5
+19:00-6
+19-6
+1200000-160000
+2+3+1+1
+3000-250
+250+790
+7+4+2+1+3+1
+0.20*6.7 + 0.10*6.9 + 0.20*6.5 + 0.05*7.0 + 0.10*6.3 + 0.35*6.5.
+0.20*6.7 + 0.10*6.9 + 0.20*6.5 + 0.05*7.0 + 0.10*6.3 + 0.35*6.5
+0.20*6.6 + 0.10*6.8 + 0.20*6.5 + 0.05*7.0 + 0.10*5.8 + 0.35*6.2
+0.20*6.1 + 0.10*6.6 + 0.20*6.4 + 0.05*5.2 + 0.10*5.8 + 0.35*6.2
+0.20*6.7 + 0.10*6.9 + 0.20*6.5 + 0.05*6.8 + 0.10*6.3 + 0.35*6.5
+3471.48/60
+2400*1000
+24000*1000
+(24000*0.23)
+5520*1000
+5520000/100
+365/2
+a <- c(1,2,3,4,5,6)
+b <- c(1,1,1,2,2,2)
+1+2+3
+4+5+6
+6+15
+1+2+3+4+5+6
+m <- matrix(1:20, 4)
+sigma <- 1:ncol(m)
+omega <- 1:nrow(m)
+mu <- 2
+m
+omega
+sigma
+sum(a)
+xs <- cbind(1:3, 4:6)
+xs
+omega
+sigmas
+# n = 3, m = 2#
+xs <- cbind(1:3, 4:6)#
+omegas <- 1:3#
+sigmas <- 1:2#
+mu <- 3#
+#
+sum((t((xs - mu) / omegas) / sigmas)^2)
+sigmas
+mu
+omegas
+xs
+y <- matrix(runif(1000),100,100)
+y
+y <- matrix(runif(1000),10,10)
+y
+mean <- mean(y)
+double_summation = 0
+for (i in 1:nrow(y)) {#
+    for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j] - mean)#
+    }#
+}
+double_summation
+y <- matrix(runif(1000),2,2)
+y
+for (i in 1:nrow(y)) {#
+    for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j] - mean)#
+    }#
+}#
+#
+double_summation
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j] - mean)#
+    }
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j] - mean)#
+    }#
+#
+double_summation
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j])#
+    }#
+#
+double_summation
+0.5832174+0.6927825
+0.5652450 +0.1291651
+1.276+0.6944101
+for (j in 1:ncol(y)) {#
+        double_summation = (y[j])#
+    }#
+#
+double_summation
+y
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j])#
+    }#
+#
+double_summation
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[j])#
+    }#
+#
+double_summation
+y
+0.5832174 + 0.6927825
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j])#
+    }#
+#
+double_summation
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[,j])#
+    }#
+#
+double_summation
+y
+0.5832174+ 0.5652450
+0.6927825+ 0.1291651
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j])#
+    }#
+#
+double_summation
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j])#
+    }#
+#
+double_summation
+double_summation = 0#
+#
+for (j in 1:ncol(y)) {#
+        double_summation = double_summation + (y[i,j])#
+    }#
+#
+double_summation
+library(car)
+?recode
+0.33^2
+0.226^2
+43+48
+300*6
+0.45^2
+-0.07^2
+300*6
+44/3
+1180+552
+300/13
+23*3
+23*13
+370/13
+370/23
+370000/(13*4)
+300000/(13*4)
+70000/5770
+13*4 + 12
+64/4
+21.1+45.2
+23.9+48.7
+2.2+17.6
+23.7+50.2
+48.8+39.1
+39.7+43.6
+49.8+36.3
+21.5+46.4
+0.07^2
+1500.32*2100
+3150672*3
+1500.32*2100 + 1500.32*1800 + 1500.32*1800 + 49181.03*3
+0.432 - 0.282
+0.495 - 0.46
+370-250
+(10*370)/100
+exp(.1119527)
+897+421
+25900000-10187051
+(120+370)*4
+120000+370000
+490000*4
+14897949 - 1960000
+800*600
+370*4
+370*4 + 120*4 + 700*4
+0.5+0.5+0.9+0.5+0.5+0.4+0.3+0.4+0.2+0.2+0.2+0.4+1
+0.5+0.5+0.6+0.3+0.5+0.3+0.3+0.5+0.3+0.2+0.2+0.4+1
+0.5+0.5+0.9+0.5+0.5+0.5+0.3+0.5+0.5+0.2+0.1+0.5+1
+(6.6+6.4)/2
+(6.0+6.3)/2
+a <- c(1,2,3)
+a
+?sample
+sample(a,1)
+1:3 %in% sample(1:3,1)
+1:2 %in% sample(1:2,1)
+700-250
+1037+811
+2000- 1848
+55+821+605+367
+152/3
+252/3
+84*3
+(13*75)/100
+120+370+700
+1190000*3
+2100*0.6
+13*0.75
+1176+623+843
+16.1+27.7+20.8
+61.65*795.12
+3+13+3+13+16
+28393.3*7000
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+library(dplyr)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+library(tidyr)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+library(knitr)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+library(kableExtra)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')#
+w01 <- sjlabelled::read_spss("input/data/original/Estudio_3_ola1.sav",verbose = F)#
+w02 <- sjlabelled::read_spss("input/data/original/Estudio_3_ola2.sav",verbose = F)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w01 <- sjlabelled::read_spss("Estudio_3_ola1.sav",verbose = F)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w02 <- sjlabelled::read_spss("Estudio_3_ola2.sav",verbose = F)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+table(w02$StartDate,exclude=NULL)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+table(w02$Intro,exclude=NULL) # (2) 56 no aceptan, (1) 1799 aceptan, 14 NA
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+table(w01$Intro,exclude=NULL) # (2) 221 no aceptan, (1) 2236 aceptan
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w01a <- filter(w01,Intro==1) # Elimina los que no aceptan
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+table(w01a$Intro,exclude=NULL) # 2236
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+table(w01a$Finished,exclude=NULL) # (1) 2100 finalizan, (0) 136 no terminan
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w01b <- filter(w01a,Finished==1) # Elimina los que no aceptan
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+table(w01b$Intro,exclude=NULL) # 2100
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+table(w02$Intro,exclude=NULL) # (2)  56 no aceptan, (1)  1809 aceptan
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w02a <- filter(w02,Intro==1) # Elimina los que no aceptan
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+table(w02a$Intro,exclude=NULL)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+table(w02a$Finished,exclude=NULL) # (1) 1769 finalizan, (0) 40 no terminan
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w02b <- filter(w02a,Finished==1) # Elimina los que no aceptan
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+table(w02b$Intro,exclude=NULL) # 1769
+names(w01a)
+table(w01a$ticket)
+names(w01a)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+colnames(w01a) <- paste(colnames(w01a), "w1", sep = "_") # Add suffix for wave 01 identification
+names(w01a)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w01a$ID <- stringr::str_split_fixed(w01a$ticket,"_", 4)[,1] # En la variable ticket el primer código es el ID, todo lo demás se borra
+table(w01a$ID)
+names(w01b)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w01b <- w01a #
+w01b$grupo <- NA#
+w01b$grupo[w01c$FL_21_DO_merit_perc_pref_julio19v01_w1==1] <- 1 #Versión A de escala meritocracia#
+w01b$grupo[w01c$FL_21_DO_merit_perc_pref_julio19v02_w1==1] <- 2 #Versión B de escala meritocracia#
+w01b$grupo[w01c$FL_21_DO_merit_perc_pref_julio19v03_w1==1] <- 3 #Versión C de escala meritocracia#
+w01b$grupo <- factor(w01c$grupo,levels = c(1,2,3),labels = c("A","B","C"))
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w01b <- w01a
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w01b$grupo <- NA
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w01b$grupo[w01b$FL_21_DO_merit_perc_pref_julio19v01_w1==1] <- 1 #Versión A de escala meritocracia
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w01b$grupo[w01b$FL_21_DO_merit_perc_pref_julio19v02_w1==1] <- 2 #Versión B de escala meritocracia
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w01b$grupo[w01b$FL_21_DO_merit_perc_pref_julio19v03_w1==1] <- 3 #Versión C de escala meritocracia
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+w01b$grupo <- factor(w01b$grupo,levels = c(1,2,3),labels = c("A","B","C"))
+table(w01b$grupo)
+setwd('/Users/luismaldonado/Dropbox/fondecyt regular 2015/Estudio cuantitativo/data-experimentos2018/experimento_pobrezaEnero2020/JI/input/data/original')
+skimr::skim(w01b)
+names(w01b)
